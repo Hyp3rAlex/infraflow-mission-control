@@ -1,0 +1,156 @@
+{
+ "read_on": "2026-11-18",
+ "method": "Atlassian connector listJiraFilters / listJiraDashboards (read-only); JQL compared without ORDER BY",
+ "saved_filters": 18,
+ "matching_catalogue": 16,
+ "catalogue_size": 16,
+ "catalogue_not_saved": [],
+ "mismatches": [
+  {
+   "id": "10010",
+   "name": "InfraFlow | Open demands without owner",
+   "jql": "created >= -30d order by created DESC",
+   "catalogue_key": null,
+   "status": "DOES NOT MATCH"
+  }
+ ],
+ "filters": [
+  {
+   "id": "10002",
+   "name": "InfraFlow | All Demands",
+   "jql": "project = KAN AND labels = orion-demand ORDER BY priority DESC",
+   "catalogue_key": null,
+   "status": "extra (all demands, not in catalogue)"
+  },
+  {
+   "id": "10004",
+   "name": "InfraFlow | Awaiting Decision",
+   "jql": "project = KAN AND labels = orion-demand AND labels = \"stage-ready-for-decision\" ORDER BY priority DESC",
+   "catalogue_key": "decision",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10007",
+   "name": "InfraFlow | Blocked or Deferred",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND labels in (blocked, \"stage-deferred\") ORDER BY priority DESC",
+   "catalogue_key": "blocked_deferred",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10009",
+   "name": "InfraFlow | Completed in the last 30 days",
+   "jql": "project = KAN AND labels = orion-demand AND labels = stage-complete AND statusCategoryChangedDate >= -30d ORDER BY statusCategoryChangedDate DESC",
+   "catalogue_key": "done_recent",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10012",
+   "name": "InfraFlow | High-priority open demands",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND priority in (Highest, High) ORDER BY priority DESC, due ASC",
+   "catalogue_key": "high",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10008",
+   "name": "InfraFlow | Management attention",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND (due < startOfDay() OR assignee IS EMPTY OR labels in (blocked, needs-finance-review)) ORDER BY priority DESC",
+   "catalogue_key": "attention",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10015",
+   "name": "InfraFlow | Needs finance review",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND labels = needs-finance-review ORDER BY priority DESC",
+   "catalogue_key": "finance",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10011",
+   "name": "InfraFlow | No activity for 7 days",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND updated <= -7d ORDER BY updated ASC",
+   "catalogue_key": "stale",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10003",
+   "name": "InfraFlow | Open Demands",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done ORDER BY priority DESC, due ASC",
+   "catalogue_key": "open",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10010",
+   "name": "InfraFlow | Open demands without owner",
+   "jql": "created >= -30d order by created DESC",
+   "catalogue_key": null,
+   "status": "DOES NOT MATCH"
+  },
+  {
+   "id": "10005",
+   "name": "InfraFlow | Overdue Demands",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND due < startOfDay() ORDER BY due ASC",
+   "catalogue_key": "overdue",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10013",
+   "name": "InfraFlow | Pending assessment",
+   "jql": "project = KAN AND labels = orion-demand AND labels in (stage-triaged, stage-assessment) ORDER BY due ASC",
+   "catalogue_key": "assessment",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10016",
+   "name": "InfraFlow | Security review pending",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND labels = needs-security-review ORDER BY priority DESC",
+   "catalogue_key": "security",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10018",
+   "name": "InfraFlow | Team Network and Access",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND labels = team-net ORDER BY due ASC",
+   "catalogue_key": "team_net",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10017",
+   "name": "InfraFlow | Team Platform and Storage",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND labels = team-plat ORDER BY due ASC",
+   "catalogue_key": "team_plat",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10019",
+   "name": "InfraFlow | Team Security Engineering",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND labels = team-sec ORDER BY due ASC",
+   "catalogue_key": "team_sec",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10006",
+   "name": "InfraFlow | Unassigned Demands",
+   "jql": "project = KAN AND labels = orion-demand AND statusCategory != Done AND assignee IS EMPTY ORDER BY priority DESC",
+   "catalogue_key": "unassigned",
+   "status": "matches catalogue"
+  },
+  {
+   "id": "10014",
+   "name": "InfraFlow | Waiting for requester",
+   "jql": "project = KAN AND labels = orion-demand AND labels = stage-needs-info ORDER BY updated ASC",
+   "catalogue_key": "needs_info",
+   "status": "matches catalogue"
+  }
+ ],
+ "dashboards": [
+  {
+   "id": "10000",
+   "name": "Default dashboard"
+  },
+  {
+   "id": "10001",
+   "name": "InfraFlow | Demand Operations"
+  }
+ ],
+ "dashboard_gadgets": "not readable through the connector; eight gadgets are visible in screenshots 01-04"
+}

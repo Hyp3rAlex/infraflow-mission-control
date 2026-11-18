@@ -1,0 +1,127 @@
+{
+ "file_sha256": "b0fbf020f4849c7c82f8a5bb7ef79fe67a3a1e356071ae5adf051b83d40a4921",
+ "application": "Microsoft Excel",
+ "app_version": "16.0300",
+ "saved_at": "2026-11-17T18:48:25Z",
+ "calc_chain_present": true,
+ "check_cells": 27,
+ "not_ok": [],
+ "summary_cell": {
+  "B45": "ALL OK"
+ },
+ "cells": {
+  "K7": {
+   "value": "OK",
+   "formula": "=IF(AND(C7=I7,F7=J7),\"OK\",\"DIFF\")"
+  },
+  "K8": {
+   "value": "OK",
+   "formula": "=IF(AND(C8=I8,F8=J8),\"OK\",\"DIFF\")"
+  },
+  "K9": {
+   "value": "OK",
+   "formula": "=IF(AND(C9=I9,F9=J9),\"OK\",\"DIFF\")"
+  },
+  "K10": {
+   "value": "OK",
+   "formula": "=IF(AND(C10=I10,F10=J10),\"OK\",\"DIFF\")"
+  },
+  "K11": {
+   "value": "OK",
+   "formula": "=IF(AND(C11=I11,F11=J11),\"OK\",\"DIFF\")"
+  },
+  "K12": {
+   "value": "OK",
+   "formula": "=IF(AND(C12=I12,F12=J12),\"OK\",\"DIFF\")"
+  },
+  "F16": {
+   "value": "OK",
+   "formula": "=IF(D16=E16,\"OK\",\"DIFF\")"
+  },
+  "F17": {
+   "value": "OK",
+   "formula": "=IF(D17=E17,\"OK\",\"DIFF\")"
+  },
+  "F18": {
+   "value": "OK",
+   "formula": "=IF(D18=E18,\"OK\",\"DIFF\")"
+  },
+  "F19": {
+   "value": "OK",
+   "formula": "=IF(D19=E19,\"OK\",\"DIFF\")"
+  },
+  "G24": {
+   "value": "OK",
+   "formula": "=IF(E24=F24,\"OK\",\"DIFF\")"
+  },
+  "G25": {
+   "value": "OK",
+   "formula": "=IF(E25=F25,\"OK\",\"DIFF\")"
+  },
+  "G26": {
+   "value": "OK",
+   "formula": "=IF(E26=F26,\"OK\",\"DIFF\")"
+  },
+  "G27": {
+   "value": "OK",
+   "formula": "=IF(E27=F27,\"OK\",\"DIFF\")"
+  },
+  "G28": {
+   "value": "OK",
+   "formula": "=IF(E28=F28,\"OK\",\"DIFF\")"
+  },
+  "G29": {
+   "value": "OK",
+   "formula": "=IF(E29=F29,\"OK\",\"DIFF\")"
+  },
+  "G30": {
+   "value": "OK",
+   "formula": "=IF(E30=F30,\"OK\",\"DIFF\")"
+  },
+  "G31": {
+   "value": "OK",
+   "formula": "=IF(E31=F31,\"OK\",\"DIFF\")"
+  },
+  "G32": {
+   "value": "OK",
+   "formula": "=IF(E32=F32,\"OK\",\"DIFF\")"
+  },
+  "G33": {
+   "value": "OK",
+   "formula": "=IF(E33=F33,\"OK\",\"DIFF\")"
+  },
+  "G34": {
+   "value": "OK",
+   "formula": "=IF(E34=F34,\"OK\",\"DIFF\")"
+  },
+  "G35": {
+   "value": "OK",
+   "formula": "=IF(E35=F35,\"OK\",\"DIFF\")"
+  },
+  "D39": {
+   "value": "OK",
+   "formula": "=IF(B39=C39,\"OK\",\"DIFF\")"
+  },
+  "D40": {
+   "value": "OK",
+   "formula": "=IF(B40=C40,\"OK\",\"DIFF\")"
+  },
+  "D41": {
+   "value": "OK",
+   "formula": "=IF(B41=C41,\"OK\",\"DIFF\")"
+  },
+  "D42": {
+   "value": "OK",
+   "formula": "=IF(B42=C42,\"OK\",\"DIFF\")"
+  },
+  "D43": {
+   "value": "OK",
+   "formula": "=IF(B43=C43,\"OK\",\"DIFF\")"
+  },
+  "B45": {
+   "value": "ALL OK",
+   "formula": "=IF(COUNTIF(K7:K12,\"DIFF\")+COUNTIF(F16:F19,\"DIFF\")+COUNTIF(G24:G35,\"DIFF\")+COUNTIF(D39:D43,\"DIFF\")=0,\"ALL OK\",\"CHECK DIFFERENCES\")"
+  }
+ },
+ "note": "Values cached by Microsoft Excel when the project owner opened and saved the generated workbook. Extracted by scripts/record_excel_calculated_checks.py; the saved file is not part of the repository."
+}

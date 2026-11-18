@@ -1,0 +1,430 @@
+{
+ "01-jira-dashboard-status-priority.png": {
+  "redactions": [],
+  "source_sha256": "191c1c6748d472c0b4cc7db6791b203c5988f873ee190d11f6e5919a4d4b61b5",
+  "public_sha256": "191c1c6748d472c0b4cc7db6791b203c5988f873ee190d11f6e5919a4d4b61b5",
+  "size": [
+   1562,
+   866
+  ]
+ },
+ "02-jira-dashboard-management-attention.png": {
+  "redactions": [
+   {
+    "box": [
+     569,
+     86,
+     642,
+     628
+    ],
+    "what": "assignee column (name)"
+   },
+   {
+    "box": [
+     1324,
+     86,
+     1397,
+     292
+    ],
+    "what": "assignee column (name)"
+   }
+  ],
+  "source_sha256": "a15f093872adb69f0722111a80dad74a7726f56a2d20db464aad1b2ba4d5df46",
+  "public_sha256": "06ccb7b603a67a53bac5f45b3b9263171a4626dabd446342ef7f8e3d2a93503f",
+  "size": [
+   1504,
+   727
+  ]
+ },
+ "03-jira-dashboard-status-team-matrix.png": {
+  "redactions": [],
+  "source_sha256": "1e12b5f299ca645cefd689cbf7d292525bbd9e1614f50048e185787b069f00f8",
+  "public_sha256": "1e12b5f299ca645cefd689cbf7d292525bbd9e1614f50048e185787b069f00f8",
+  "size": [
+   1509,
+   567
+  ]
+ },
+ "04-jira-dashboard-blocked-deferred.png": {
+  "redactions": [],
+  "source_sha256": "2746d3aa11383ef75b24e07b19da89695adf045d1c3a4c97974110021af22c0b",
+  "public_sha256": "2746d3aa11383ef75b24e07b19da89695adf045d1c3a4c97974110021af22c0b",
+  "size": [
+   1528,
+   451
+  ]
+ },
+ "05-jira-kanban-portfolio.png": {
+  "redactions": [
+   {
+    "box": [
+     31,
+     32,
+     162,
+     53
+    ],
+    "what": "space name"
+   },
+   {
+    "box": [
+     164,
+     111,
+     213,
+     140
+    ],
+    "what": "avatar filter (initials)"
+   },
+   {
+    "box": [
+     208,
+     416,
+     237,
+     445
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     208,
+     691,
+     237,
+     720
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     482,
+     596,
+     511,
+     625
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     755,
+     393,
+     784,
+     422
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     755,
+     624,
+     784,
+     653
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     1029,
+     416,
+     1058,
+     445
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     1029,
+     669,
+     1058,
+     698
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     1303,
+     538,
+     1332,
+     567
+    ],
+    "what": "avatar"
+   },
+   {
+    "box": [
+     1303,
+     768,
+     1332,
+     797
+    ],
+    "what": "avatar"
+   }
+  ],
+  "source_sha256": "0e68494c74bbc3200528e17060974f337937dbe272dd622393910173e59ee284",
+  "public_sha256": "07a8836118724e15187aeb892d75b812dd1bbed449e78b8ad2c94d4fd2011ebf",
+  "size": [
+   1381,
+   838
+  ]
+ },
+ "06-jira-orion017-overview-links.png": {
+  "redactions": [
+   {
+    "box": [
+     36,
+     14,
+     115,
+     29
+    ],
+    "what": "space name (breadcrumb)"
+   },
+   {
+    "box": [
+     1049,
+     166,
+     1210,
+     194
+    ],
+    "what": "assignee (avatar and name)"
+   },
+   {
+    "box": [
+     1049,
+     593,
+     1210,
+     622
+    ],
+    "what": "reporter (avatar and name)"
+   },
+   {
+    "box": [
+     27,
+     742,
+     189,
+     779
+    ],
+    "what": "comment author (avatar, name)"
+   },
+   {
+    "box": [
+     529,
+     646,
+     642,
+     674
+    ],
+    "what": "linked item assignee (avatar, name)"
+   },
+   {
+    "box": [
+     863,
+     470,
+     891,
+     498
+    ],
+    "what": "attachment added-by avatar"
+   },
+   {
+    "box": [
+     863,
+     510,
+     891,
+     539
+    ],
+    "what": "attachment added-by avatar"
+   }
+  ],
+  "source_sha256": "3065df17a29828288ce9306cd4d55dbaadc6eb6da164a44435b2ea6e61cc5ef7",
+  "public_sha256": "a4807653100adb3131682ca2fd994b6ec1434db17bb4226802317bee0aaafcd5",
+  "size": [
+   1581,
+   794
+  ]
+ },
+ "07-jira-orion017-gates-options-decision.png": {
+  "redactions": [],
+  "source_sha256": "bb0799a6396c663344749dbfc7a57df97057b35db2d8c47b0d7c57139dcffb1a",
+  "public_sha256": "bb0799a6396c663344749dbfc7a57df97057b35db2d8c47b0d7c57139dcffb1a",
+  "size": [
+   990,
+   808
+  ]
+ },
+ "08-confluence-orion017-options.png": {
+  "redactions": [],
+  "source_sha256": "a2acee10245031aba667614fd28c3e65abd53e38a5e6024b4dbd84a3bb0cb574",
+  "public_sha256": "a2acee10245031aba667614fd28c3e65abd53e38a5e6024b4dbd84a3bb0cb574",
+  "size": [
+   499,
+   737
+  ]
+ },
+ "09-confluence-orion017-decision.png": {
+  "redactions": [],
+  "source_sha256": "d92e40a6ed225943eecc45f16257e058e622eacf81f4bf8d0140216b06ad216e",
+  "public_sha256": "d92e40a6ed225943eecc45f16257e058e622eacf81f4bf8d0140216b06ad216e",
+  "size": [
+   498,
+   787
+  ]
+ },
+ "10-confluence-weekly-review-overview.png": {
+  "redactions": [
+   {
+    "box": [
+     20,
+     57,
+     162,
+     73
+    ],
+    "what": "page byline (author name)"
+   }
+  ],
+  "source_sha256": "d274dbdf9aa1d13849025d6c1088c3d8763f490f1e661775a7809c6bb9ca0010",
+  "public_sha256": "f48c71792254d6b9296cae3b342429f8f5c0e6af1f8abf3a6fa2687344348016",
+  "size": [
+   512,
+   814
+  ]
+ },
+ "11-confluence-weekly-review-actions.png": {
+  "redactions": [],
+  "source_sha256": "1a9f8a93f26ef7bd141b64ebfdb27d485e35ba66a44951284443d8bd0c29c303",
+  "public_sha256": "1a9f8a93f26ef7bd141b64ebfdb27d485e35ba66a44951284443d8bd0c29c303",
+  "size": [
+   509,
+   779
+  ]
+ },
+ "12-confluence-weekly-financial-status.png": {
+  "redactions": [],
+  "source_sha256": "1d768c4fca148ddbf535a458b168ad83335f67e29804170f3a1857302239d665",
+  "public_sha256": "1d768c4fca148ddbf535a458b168ad83335f67e29804170f3a1857302239d665",
+  "size": [
+   496,
+   410
+  ]
+ },
+ "13-confluence-live-jira-tables.png": {
+  "redactions": [
+   {
+    "box": [
+     483,
+     63,
+     601,
+     175
+    ],
+    "what": "assignee column (name)"
+   },
+   {
+    "box": [
+     595,
+     60,
+     707,
+     179
+    ],
+    "what": "reporter column (name)"
+   },
+   {
+    "box": [
+     494,
+     286,
+     608,
+     374
+    ],
+    "what": "assignee column (name)"
+   },
+   {
+    "box": [
+     602,
+     283,
+     715,
+     378
+    ],
+    "what": "reporter column (name)"
+   },
+   {
+    "box": [
+     494,
+     485,
+     608,
+     647
+    ],
+    "what": "assignee column (name)"
+   },
+   {
+    "box": [
+     602,
+     482,
+     715,
+     651
+    ],
+    "what": "reporter column (name)"
+   }
+  ],
+  "source_sha256": "cdd8a076930c4995662db50df193a1dea9cf07e3a58c23c2a88ec7f2a3962abe",
+  "public_sha256": "fe31c3338ac4860f3480eaa78fbd9c2faeae69ebd5d2852f276b40001bbfb145",
+  "size": [
+   1188,
+   691
+  ]
+ },
+ "14-excel-forecast-workbook.png": {
+  "redactions": [],
+  "source_sha256": "8c3202357d8f0674955e3846f263ce3f0e7b0eee8f83de61f05bd84f600cb89c",
+  "public_sha256": "8c3202357d8f0674955e3846f263ce3f0e7b0eee8f83de61f05bd84f600cb89c",
+  "size": [
+   974,
+   633
+  ]
+ },
+ "15-excel-capacity-workbook.png": {
+  "redactions": [],
+  "source_sha256": "eef2380e49ba65bf2aa7dfc547b874379e46b4fc46937c9666455bf55be70643",
+  "public_sha256": "eef2380e49ba65bf2aa7dfc547b874379e46b4fc46937c9666455bf55be70643",
+  "size": [
+   1034,
+   555
+  ]
+ },
+ "16-ppt-capacity-decision-slide4.png": {
+  "redactions": [],
+  "source_sha256": "9c4cb2a0fe1c3db31374223e7b33f9fd5f09bcb553bd6f28d53e6922d560b324",
+  "public_sha256": "9c4cb2a0fe1c3db31374223e7b33f9fd5f09bcb553bd6f28d53e6922d560b324",
+  "size": [
+   1919,
+   1079
+  ]
+ },
+ "17-ppt-financial-briefing-slide3.png": {
+  "redactions": [],
+  "source_sha256": "59e33aaf667c2f5089778a4afebba346e1e130216b59f3373f368845093182bc",
+  "public_sha256": "59e33aaf667c2f5089778a4afebba346e1e130216b59f3373f368845093182bc",
+  "size": [
+   1919,
+   1079
+  ]
+ },
+ "18-ppt-demand-pipeline-slide2.png": {
+  "redactions": [],
+  "source_sha256": "bd6ef569d16123107b4fcd0c0937bac585f67a1bcd1eb91e2ef1ea3a97280c91",
+  "public_sha256": "bd6ef569d16123107b4fcd0c0937bac585f67a1bcd1eb91e2ef1ea3a97280c91",
+  "size": [
+   1919,
+   1079
+  ]
+ },
+ "19-ppt-portfolio-overview-slide1.png": {
+  "redactions": [],
+  "source_sha256": "804d1b641214cb144c5b20833f44d58b04ff6d1b96d550f41ca8a62cca7ac41d",
+  "public_sha256": "804d1b641214cb144c5b20833f44d58b04ff6d1b96d550f41ca8a62cca7ac41d",
+  "size": [
+   1919,
+   1079
+  ]
+ },
+ "20-ppt-board-decisions-slide5.png": {
+  "redactions": [],
+  "source_sha256": "50cba37ef29de68bb73058f21b604883dcec7d326563f6808d7d145e68a19ef0",
+  "public_sha256": "50cba37ef29de68bb73058f21b604883dcec7d326563f6808d7d145e68a19ef0",
+  "size": [
+   1919,
+   1079
+  ]
+ }
+}

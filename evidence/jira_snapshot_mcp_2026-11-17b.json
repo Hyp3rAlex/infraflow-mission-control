@@ -1,0 +1,882 @@
+{
+  "source": "Atlassian MCP connector read-back (searchJiraIssuesUsingJql), transcribed by the assistant",
+  "taken_at": "2026-11-17",
+  "jql": "project = KAN AND labels = orion-demand",
+  "issues": [
+    {
+      "key": "KAN-5",
+      "summary": "ORION-REQ-002 | Flight-test telemetry archive tiering",
+      "status": "Done",
+      "priority": "High",
+      "duedate": "2026-10-16",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-storage",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-002",
+        "site-toulouse",
+        "stage-complete",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-6",
+      "summary": "ORION-REQ-005 | Privileged access workstation rollout for administrators",
+      "status": "Done",
+      "priority": "Highest",
+      "duedate": "2026-11-06",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "orion-demand",
+        "orion-req-005",
+        "site-madrid",
+        "stage-complete",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-7",
+      "summary": "ORION-REQ-009 | Backup policy enhancement for engineering file shares",
+      "status": "Done",
+      "priority": "Highest",
+      "duedate": "2026-11-13",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-backup-dr",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-009",
+        "site-bremen",
+        "stage-complete",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-8",
+      "summary": "ORION-REQ-010 | MFA rollout for legacy engineering portals",
+      "status": "In Progress",
+      "priority": "Highest",
+      "duedate": "2026-12-11",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-access",
+        "cc-sec-ops",
+        "orion-demand",
+        "orion-req-010",
+        "site-munich",
+        "stage-in-delivery",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-9",
+      "summary": "ORION-REQ-011 | Storage and performance upgrade for the test-results database",
+      "status": "In Progress",
+      "priority": "High",
+      "duedate": "2026-12-04",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-database",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-011",
+        "site-toulouse",
+        "stage-in-delivery",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-10",
+      "summary": "ORION-REQ-012 | Core switch firmware and capacity upgrade Munich campus",
+      "status": "In Progress",
+      "priority": "High",
+      "duedate": "2026-11-13",
+      "assignee": "<site owner>",
+      "labels": [
+        "blocked",
+        "cat-network",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-012",
+        "site-munich",
+        "stage-in-delivery",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-11",
+      "summary": "ORION-REQ-013 | Simulation software licence renewal 2027",
+      "status": "In Progress",
+      "priority": "Highest",
+      "duedate": "2026-11-30",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-software-env",
+        "cc-eng-sim",
+        "orion-demand",
+        "orion-req-013",
+        "site-munich",
+        "stage-in-delivery",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-12",
+      "summary": "ORION-REQ-015 | Infrastructure monitoring coverage for lab networks",
+      "status": "In Progress",
+      "priority": "Medium",
+      "duedate": "2026-11-09",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-monitoring",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-015",
+        "site-madrid",
+        "stage-in-delivery",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-13",
+      "summary": "ORION-REQ-017 | Engineering Data Repository Expansion",
+      "status": "In Review",
+      "priority": "Highest",
+      "duedate": "2026-12-18",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-storage",
+        "cc-eng-data",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-017",
+        "site-munich",
+        "stage-deferred",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-14",
+      "summary": "ORION-REQ-018 | GPU nodes for CFD post-processing",
+      "status": "In Review",
+      "priority": "Medium",
+      "duedate": "2027-01-29",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-compute",
+        "cc-eng-sim",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-018",
+        "site-toulouse",
+        "stage-deferred",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-15",
+      "summary": "ORION-REQ-019 | Cross-site WAN bandwidth upgrade Madrid-Toulouse",
+      "status": "In Progress",
+      "priority": "High",
+      "duedate": "2027-01-15",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-network",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-019",
+        "site-madrid",
+        "stage-handoff",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-16",
+      "summary": "ORION-REQ-020 | Vulnerability scanner coverage for the OT lab segment",
+      "status": "In Progress",
+      "priority": "Highest",
+      "duedate": "2026-12-11",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "orion-demand",
+        "orion-req-020",
+        "site-bremen",
+        "stage-handoff",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-17",
+      "summary": "ORION-REQ-021 | Engineering wiki search and reporting automation",
+      "status": "In Progress",
+      "priority": "Low",
+      "duedate": "2026-12-18",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-collaboration",
+        "cc-collab",
+        "orion-demand",
+        "orion-req-021",
+        "site-munich",
+        "stage-approved",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-18",
+      "summary": "ORION-REQ-022 | Oracle-to-PostgreSQL migration for the materials database",
+      "status": "In Progress",
+      "priority": "High",
+      "duedate": "2027-02-26",
+      "assignee": "<site owner>",
+      "labels": [
+        "blocked",
+        "cat-migration",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-022",
+        "site-madrid",
+        "stage-approved",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-19",
+      "summary": "ORION-REQ-023 | VPN access modernisation for cross-site collaboration",
+      "status": "In Review",
+      "priority": "Highest",
+      "duedate": "2027-02-12",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-access",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-023",
+        "site-bremen",
+        "stage-ready-for-decision",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-20",
+      "summary": "ORION-REQ-024 | Cloud-hosted analytics pilot for test-campaign data",
+      "status": "In Review",
+      "priority": "Medium",
+      "duedate": "2027-01-15",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-analytics",
+        "cc-eng-data",
+        "needs-finance-review",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-024",
+        "site-toulouse",
+        "stage-ready-for-decision",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-21",
+      "summary": "ORION-REQ-027 | Network segmentation for the integration lab",
+      "status": "In Review",
+      "priority": "Highest",
+      "duedate": "2026-12-18",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-027",
+        "site-madrid",
+        "stage-ready-for-decision",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-22",
+      "summary": "ORION-REQ-029 | Time-series database for test-bench sensors",
+      "status": "To Do",
+      "priority": "Medium",
+      "duedate": "2026-11-10",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-database",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-029",
+        "site-munich",
+        "stage-assessment",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-23",
+      "summary": "ORION-REQ-030 | Identity federation with a supplier tenant",
+      "status": "To Do",
+      "priority": "High",
+      "duedate": "2027-01-15",
+      "assignee": "<site owner>",
+      "labels": [
+        "blocked",
+        "cat-access",
+        "cc-sec-ops",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-030",
+        "site-toulouse",
+        "stage-assessment",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-24",
+      "summary": "ORION-REQ-031 | Wi-Fi coverage improvement hangar 3",
+      "status": "To Do",
+      "priority": "Medium",
+      "duedate": "2026-12-11",
+      "assignee": null,
+      "labels": [
+        "cat-network",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-031",
+        "owner-missing",
+        "site-madrid",
+        "stage-assessment",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-25",
+      "summary": "ORION-REQ-033 | SIEM use-case onboarding for engineering applications",
+      "status": "To Do",
+      "priority": "High",
+      "duedate": "2026-12-18",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-033",
+        "site-munich",
+        "stage-assessment",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-26",
+      "summary": "ORION-REQ-036 | Automated certificate lifecycle management",
+      "status": "Idea",
+      "priority": "Highest",
+      "duedate": "2027-01-15",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-036",
+        "site-madrid",
+        "stage-triaged",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-27",
+      "summary": "ORION-REQ-038 | Shared CAD data exchange zone with a partner",
+      "status": "Idea",
+      "priority": "High",
+      "duedate": "2026-11-27",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-collaboration",
+        "cc-collab",
+        "needs-finance-review",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-038",
+        "site-toulouse",
+        "stage-needs-info",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-28",
+      "summary": "ORION-REQ-040 | Remote access for field test teams",
+      "status": "Idea",
+      "priority": "High",
+      "duedate": "2026-11-06",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-access",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-040",
+        "site-bremen",
+        "stage-needs-info",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-29",
+      "summary": "ORION-REQ-041 | Archive for decommissioned programme data",
+      "status": "Idea",
+      "priority": "Low",
+      "duedate": "2027-01-29",
+      "assignee": null,
+      "labels": [
+        "cat-storage",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-041",
+        "owner-missing",
+        "site-munich",
+        "stage-submitted",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-30",
+      "summary": "ORION-REQ-042 | Jump-host hardening for supplier maintenance access",
+      "status": "Idea",
+      "priority": "Highest",
+      "duedate": "2026-11-27",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-042",
+        "site-toulouse",
+        "stage-submitted",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-31",
+      "summary": "ORION-REQ-046 | Chat-ops integration for incident bridges",
+      "status": "Done",
+      "priority": "Low",
+      "duedate": "2026-11-20",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-collaboration",
+        "cc-collab",
+        "orion-demand",
+        "orion-req-046",
+        "site-toulouse",
+        "stage-rejected",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-32",
+      "summary": "ORION-REQ-048 | Production file-server outage - restore service Bremen",
+      "status": "Done",
+      "priority": "High",
+      "duedate": "2026-11-10",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-incident",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-048",
+        "site-bremen",
+        "stage-routed-out",
+        "team-plat",
+        "type-incident"
+      ]
+    },
+    {
+      "key": "KAN-33",
+      "summary": "ORION-REQ-001 | Simulation batch compute cluster expansion",
+      "status": "Done",
+      "priority": "Highest",
+      "duedate": "2026-10-30",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-compute",
+        "cc-eng-sim",
+        "orion-demand",
+        "orion-req-001",
+        "site-munich",
+        "stage-complete",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-34",
+      "summary": "ORION-REQ-003 | Site-to-site VPN concentrator replacement Bremen",
+      "status": "Done",
+      "priority": "High",
+      "duedate": "2026-10-23",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-network",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-003",
+        "site-bremen",
+        "stage-complete",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-35",
+      "summary": "ORION-REQ-004 | Engineering licence server consolidation",
+      "status": "Done",
+      "priority": "Medium",
+      "duedate": "2026-09-30",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-software-env",
+        "cc-eng-sim",
+        "orion-demand",
+        "orion-req-004",
+        "site-munich",
+        "stage-complete",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-36",
+      "summary": "ORION-REQ-006 | PostgreSQL test environment for avionics CI",
+      "status": "Done",
+      "priority": "Medium",
+      "duedate": "2026-09-25",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-database",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-006",
+        "site-toulouse",
+        "stage-complete",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-37",
+      "summary": "ORION-REQ-007 | Meeting-room collaboration endpoints refresh Madrid",
+      "status": "Done",
+      "priority": "Low",
+      "duedate": "2026-10-09",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-collaboration",
+        "cc-collab",
+        "orion-demand",
+        "orion-req-007",
+        "site-madrid",
+        "stage-complete",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-38",
+      "summary": "ORION-REQ-008 | Central log retention extension to 12 months",
+      "status": "Done",
+      "priority": "High",
+      "duedate": "2026-10-30",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-monitoring",
+        "cc-sec-ops",
+        "orion-demand",
+        "orion-req-008",
+        "site-munich",
+        "stage-complete",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-39",
+      "summary": "ORION-REQ-014 | Secure external file-exchange service for suppliers",
+      "status": "In Progress",
+      "priority": "High",
+      "duedate": "2026-12-18",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-collaboration",
+        "cc-collab",
+        "orion-demand",
+        "orion-req-014",
+        "site-bremen",
+        "stage-in-delivery",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-40",
+      "summary": "ORION-REQ-016 | Legacy LDAP directory decommission phase 1",
+      "status": "In Progress",
+      "priority": "Medium",
+      "duedate": "2027-01-29",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-migration",
+        "cc-sec-ops",
+        "orion-demand",
+        "orion-req-016",
+        "site-toulouse",
+        "stage-in-delivery",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-41",
+      "summary": "ORION-REQ-025 | DR runbook automation and failover test environment",
+      "status": "In Review",
+      "priority": "Highest",
+      "duedate": "2027-01-29",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-backup-dr",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-025",
+        "site-munich",
+        "stage-ready-for-decision",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-42",
+      "summary": "ORION-REQ-026 | Engineering desktop virtualisation pilot Bremen",
+      "status": "In Review",
+      "priority": "Medium",
+      "duedate": "2027-02-19",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-software-env",
+        "cc-eng-sim",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-026",
+        "site-bremen",
+        "stage-ready-for-decision",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-43",
+      "summary": "ORION-REQ-028 | Object storage for satellite test imagery",
+      "status": "To Do",
+      "priority": "High",
+      "duedate": "2027-01-22",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-storage",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-028",
+        "site-bremen",
+        "stage-assessment",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-44",
+      "summary": "ORION-REQ-032 | Container platform for engineering tools",
+      "status": "To Do",
+      "priority": "Medium",
+      "duedate": "2027-02-26",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-software-env",
+        "cc-dig-infra",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-032",
+        "site-munich",
+        "stage-assessment",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-45",
+      "summary": "ORION-REQ-034 | Hosting for the model-based systems engineering tool",
+      "status": "Idea",
+      "priority": "Medium",
+      "duedate": "2027-02-26",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-software-env",
+        "cc-eng-sim",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-034",
+        "site-toulouse",
+        "stage-triaged",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-46",
+      "summary": "ORION-REQ-035 | Printer and plotter fleet consolidation",
+      "status": "Idea",
+      "priority": "Lowest",
+      "duedate": "2027-01-29",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-collaboration",
+        "cc-collab",
+        "orion-demand",
+        "orion-req-035",
+        "site-bremen",
+        "stage-triaged",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-47",
+      "summary": "ORION-REQ-037 | High-memory nodes for structural optimisation jobs",
+      "status": "Idea",
+      "priority": "High",
+      "duedate": "2026-12-11",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-compute",
+        "cc-eng-sim",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-037",
+        "site-munich",
+        "stage-needs-info",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-48",
+      "summary": "ORION-REQ-039 | Engineering data lake ingestion pipeline",
+      "status": "Idea",
+      "priority": "Medium",
+      "duedate": "2027-02-12",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-analytics",
+        "needs-finance-review",
+        "orion-demand",
+        "orion-req-039",
+        "site-madrid",
+        "stage-needs-info",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-49",
+      "summary": "ORION-REQ-043 | Additional test-bench network ports in lab B",
+      "status": "Done",
+      "priority": "Low",
+      "duedate": "2026-12-04",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-network",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-043",
+        "site-bremen",
+        "stage-routed-out",
+        "team-net",
+        "type-service-request"
+      ]
+    },
+    {
+      "key": "KAN-50",
+      "summary": "ORION-REQ-044 | Dashboard hosting for programme KPIs",
+      "status": "Idea",
+      "priority": "Low",
+      "duedate": "2026-12-18",
+      "assignee": null,
+      "labels": [
+        "cat-analytics",
+        "cc-collab",
+        "orion-demand",
+        "orion-req-044",
+        "owner-missing",
+        "site-madrid",
+        "stage-submitted",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-51",
+      "summary": "ORION-REQ-045 | Tape library retirement and media migration",
+      "status": "In Review",
+      "priority": "Medium",
+      "duedate": "2027-02-26",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-migration",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-045",
+        "site-munich",
+        "stage-deferred",
+        "team-plat"
+      ]
+    },
+    {
+      "key": "KAN-52",
+      "summary": "ORION-REQ-047 | Dedicated internet breakout for the Madrid lab",
+      "status": "Done",
+      "priority": "Low",
+      "duedate": "2026-12-04",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-network",
+        "cc-dig-infra",
+        "orion-demand",
+        "orion-req-047",
+        "site-madrid",
+        "stage-rejected",
+        "team-net"
+      ]
+    },
+    {
+      "key": "KAN-53",
+      "summary": "ORION-REQ-049 | Quantum-safe VPN cryptography evaluation lab",
+      "status": "In Review",
+      "priority": "Medium",
+      "duedate": "2027-03-26",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-security",
+        "cc-sec-ops",
+        "needs-finance-review",
+        "needs-security-review",
+        "orion-demand",
+        "orion-req-049",
+        "site-munich",
+        "stage-deferred",
+        "team-sec"
+      ]
+    },
+    {
+      "key": "KAN-54",
+      "summary": "ORION-REQ-050 | Storage snapshot replication to the secondary site",
+      "status": "In Progress",
+      "priority": "Highest",
+      "duedate": "2027-01-22",
+      "assignee": "<site owner>",
+      "labels": [
+        "cat-backup-dr",
+        "cc-eng-data",
+        "orion-demand",
+        "orion-req-050",
+        "site-toulouse",
+        "stage-approved",
+        "team-plat"
+      ]
+    }
+  ]
+}

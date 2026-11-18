@@ -1,0 +1,20 @@
+{
+  "space": {"key": "IFMC", "id": "589826", "homepage_id": "590003", "base": "https://your-site.atlassian.net/wiki"},
+  "pages": [
+    {"title": "InfraFlow Mission Control Home", "id": "590003", "parent": null, "source": "written directly through the connector (landing page with links and a live Jira list); version 2"},
+    {"title": "Integration Verification Log", "id": "655361", "parent": "590003", "source": "written directly through the connector"},
+    {"title": "Start Here - Operating Model", "id": "786433", "parent": "590003", "source": "docs/confluence_pages/01_start_here_operating_model.html"},
+    {"title": "Infrastructure Demand Intake Procedure", "id": "590018", "parent": "590003", "source": "docs/confluence_pages/02_infrastructure_demand_intake_procedure.html"},
+    {"title": "Demand Assessment and Prioritisation", "id": "819201", "parent": "590003", "source": "docs/confluence_pages/03_demand_assessment_and_prioritisation.html"},
+    {"title": "Financial Reporting Methodology", "id": "851969", "parent": "590003", "source": "docs/confluence_pages/04_financial_reporting_methodology.html"},
+    {"title": "Budget and Forecast Definitions", "id": "884737", "parent": "590003", "source": "docs/confluence_pages/05_budget_and_forecast_definitions.html"},
+    {"title": "Weekly Portfolio Review - 2026-11-16", "id": "917505", "parent": "590003", "source": "docs/confluence_pages/06_weekly_portfolio_review_2026-11-16.html"},
+    {"title": "Decision Register", "id": "950274", "parent": "590003", "source": "docs/confluence_pages/07_decision_register.html"},
+    {"title": "Risk and Issue Register", "id": "983041", "parent": "590003", "source": "docs/confluence_pages/08_risk_and_issue_register.html"},
+    {"title": "Delivery Handoff Checklist", "id": "1015809", "parent": "590003", "source": "docs/confluence_pages/09_delivery_handoff_checklist.html"},
+    {"title": "Operational Runbook", "id": "1048577", "parent": "590003", "source": "docs/confluence_pages/10_operational_runbook.html"},
+    {"title": "Continuous Improvement Register", "id": "1081345", "parent": "590003", "source": "docs/confluence_pages/11_continuous_improvement_register.html"},
+    {"title": "Jira Filters and Operational Dashboard", "id": "1114113", "parent": "590003", "source": "docs/confluence_pages/12_jira_filters_and_operational_dashboard.html"},
+    {"title": "Decision Brief - ORION-REQ-017 Engineering Data Repository Expansion", "id": "1146881", "parent": "950274", "source": "reports/decision_brief_ORION-REQ-017.md (first heading line dropped)"}
+  ]
+}

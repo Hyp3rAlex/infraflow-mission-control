@@ -1,0 +1,1960 @@
+{
+  "as_of": "2026-11-16",
+  "data_mode": "OFFLINE_FIXTURE (synthetic CSV data; not a live Jira or finance-system extract)",
+  "provisional": true,
+  "organisation": "Orion Systems Engineering",
+  "kpis": {
+    "total_demands": {
+      "value": 50,
+      "definition": "All registered records with a request date on or before the cutoff.",
+      "source_ids": [
+        "ORION-REQ-001",
+        "ORION-REQ-002",
+        "ORION-REQ-003",
+        "ORION-REQ-004",
+        "ORION-REQ-005",
+        "ORION-REQ-006",
+        "ORION-REQ-007",
+        "ORION-REQ-008",
+        "ORION-REQ-009",
+        "ORION-REQ-010",
+        "ORION-REQ-011",
+        "ORION-REQ-012",
+        "ORION-REQ-013",
+        "ORION-REQ-014",
+        "ORION-REQ-015",
+        "ORION-REQ-016",
+        "ORION-REQ-017",
+        "ORION-REQ-018",
+        "ORION-REQ-019",
+        "ORION-REQ-020",
+        "ORION-REQ-021",
+        "ORION-REQ-022",
+        "ORION-REQ-023",
+        "ORION-REQ-024",
+        "ORION-REQ-025",
+        "ORION-REQ-026",
+        "ORION-REQ-027",
+        "ORION-REQ-028",
+        "ORION-REQ-029",
+        "ORION-REQ-030",
+        "ORION-REQ-031",
+        "ORION-REQ-032",
+        "ORION-REQ-033",
+        "ORION-REQ-034",
+        "ORION-REQ-035",
+        "ORION-REQ-036",
+        "ORION-REQ-037",
+        "ORION-REQ-038",
+        "ORION-REQ-039",
+        "ORION-REQ-040",
+        "ORION-REQ-041",
+        "ORION-REQ-042",
+        "ORION-REQ-043",
+        "ORION-REQ-044",
+        "ORION-REQ-045",
+        "ORION-REQ-046",
+        "ORION-REQ-047",
+        "ORION-REQ-048",
+        "ORION-REQ-049",
+        "ORION-REQ-050"
+      ]
+    },
+    "open_demands": {
+      "value": 37,
+      "definition": "Records whose status is not Complete, Rejected or Routed Out.",
+      "source_ids": [
+        "ORION-REQ-010",
+        "ORION-REQ-011",
+        "ORION-REQ-012",
+        "ORION-REQ-013",
+        "ORION-REQ-014",
+        "ORION-REQ-015",
+        "ORION-REQ-016",
+        "ORION-REQ-017",
+        "ORION-REQ-018",
+        "ORION-REQ-019",
+        "ORION-REQ-020",
+        "ORION-REQ-021",
+        "ORION-REQ-022",
+        "ORION-REQ-023",
+        "ORION-REQ-024",
+        "ORION-REQ-025",
+        "ORION-REQ-026",
+        "ORION-REQ-027",
+        "ORION-REQ-028",
+        "ORION-REQ-029",
+        "ORION-REQ-030",
+        "ORION-REQ-031",
+        "ORION-REQ-032",
+        "ORION-REQ-033",
+        "ORION-REQ-034",
+        "ORION-REQ-035",
+        "ORION-REQ-036",
+        "ORION-REQ-037",
+        "ORION-REQ-038",
+        "ORION-REQ-039",
+        "ORION-REQ-040",
+        "ORION-REQ-041",
+        "ORION-REQ-042",
+        "ORION-REQ-044",
+        "ORION-REQ-045",
+        "ORION-REQ-049",
+        "ORION-REQ-050"
+      ]
+    },
+    "by_status": {
+      "value": {
+        "SUBMITTED": 3,
+        "NEEDS_INFO": 4,
+        "TRIAGED": 3,
+        "ASSESSMENT": 6,
+        "READY_FOR_DECISION": 5,
+        "DEFERRED": 4,
+        "APPROVED": 3,
+        "HANDOFF": 2,
+        "IN_DELIVERY": 7,
+        "COMPLETE": 9,
+        "REJECTED": 2,
+        "ROUTED_OUT": 2
+      },
+      "definition": "Count of records per current lifecycle status (demands.csv).",
+      "source_ids": []
+    },
+    "open_by_priority": {
+      "value": {
+        "Highest": 10,
+        "High": 11,
+        "Medium": 12,
+        "Low": 3,
+        "Lowest": 1
+      },
+      "definition": "Open demands per priority band derived from the weighted score.",
+      "source_ids": []
+    },
+    "open_by_site": {
+      "value": {
+        "Bremen": 7,
+        "Madrid": 8,
+        "Munich": 13,
+        "Toulouse": 9
+      },
+      "definition": "Open demands per requesting site.",
+      "source_ids": []
+    },
+    "open_by_team": {
+      "value": {
+        "PLAT": 19,
+        "NET": 8,
+        "SEC": 10
+      },
+      "definition": "Open demands per responsible delivery team.",
+      "source_ids": []
+    },
+    "open_by_category": {
+      "value": {
+        "access": 4,
+        "analytics": 3,
+        "backup-dr": 2,
+        "collaboration": 4,
+        "compute": 2,
+        "database": 2,
+        "migration": 3,
+        "monitoring": 1,
+        "network": 3,
+        "security": 6,
+        "software-env": 4,
+        "storage": 3
+      },
+      "definition": "Open demands per service category.",
+      "source_ids": []
+    },
+    "intake_last_7_days": {
+      "value": 5,
+      "definition": "Records requested from 2026-11-10 to 2026-11-16 inclusive.",
+      "source_ids": [
+        "ORION-REQ-035",
+        "ORION-REQ-036",
+        "ORION-REQ-041",
+        "ORION-REQ-042",
+        "ORION-REQ-043"
+      ]
+    },
+    "intake_by_month": {
+      "value": {
+        "2026-07": 1,
+        "2026-08": 5,
+        "2026-09": 9,
+        "2026-10": 23,
+        "2026-11": 12
+      },
+      "definition": "Records per month of request date.",
+      "source_ids": []
+    },
+    "overdue_open": {
+      "value": 4,
+      "definition": "Open demands whose required-by date is before the cutoff.",
+      "source_ids": [
+        "ORION-REQ-012",
+        "ORION-REQ-015",
+        "ORION-REQ-029",
+        "ORION-REQ-040"
+      ]
+    },
+    "blocked_open": {
+      "value": 3,
+      "definition": "Open demands flagged as blocked with a recorded reason.",
+      "source_ids": [
+        "ORION-REQ-012",
+        "ORION-REQ-022",
+        "ORION-REQ-030"
+      ]
+    },
+    "stale_open": {
+      "value": 8,
+      "definition": "Open, not deferred, and no status event for 14 days or more.",
+      "source_ids": [
+        "ORION-REQ-010",
+        "ORION-REQ-011",
+        "ORION-REQ-013",
+        "ORION-REQ-014",
+        "ORION-REQ-015",
+        "ORION-REQ-031",
+        "ORION-REQ-032",
+        "ORION-REQ-037"
+      ]
+    },
+    "unassigned_open": {
+      "value": 3,
+      "definition": "Open demands without an assigned owner.",
+      "source_ids": [
+        "ORION-REQ-031",
+        "ORION-REQ-041",
+        "ORION-REQ-044"
+      ]
+    },
+    "unassigned_pct": {
+      "value": 8.1,
+      "definition": "Unassigned open demands / open demands.",
+      "source_ids": []
+    },
+    "completeness_pct": {
+      "value": 91.7,
+      "definition": "Demands (excluding routed-out records) with every mandatory intake field filled / all such demands.",
+      "source_ids": [
+        "ORION-REQ-031",
+        "ORION-REQ-039",
+        "ORION-REQ-041",
+        "ORION-REQ-044"
+      ]
+    },
+    "approval_pending": {
+      "value": 5,
+      "definition": "Demands in Ready for Decision.",
+      "source_ids": [
+        "ORION-REQ-023",
+        "ORION-REQ-024",
+        "ORION-REQ-025",
+        "ORION-REQ-026",
+        "ORION-REQ-027"
+      ]
+    },
+    "deferred_review_due_30d": {
+      "value": 1,
+      "definition": "Deferred demands with a next review date within 30 days of the cutoff.",
+      "source_ids": [
+        "ORION-REQ-017"
+      ]
+    },
+    "median_triage_business_days": {
+      "value": 3.0,
+      "definition": "Median working days from submission to the first Triaged event (status history); demands never triaged are excluded.",
+      "source_ids": [
+        "ORION-REQ-001",
+        "ORION-REQ-002",
+        "ORION-REQ-003",
+        "ORION-REQ-004",
+        "ORION-REQ-005",
+        "ORION-REQ-006",
+        "ORION-REQ-007",
+        "ORION-REQ-008",
+        "ORION-REQ-009",
+        "ORION-REQ-010",
+        "ORION-REQ-011",
+        "ORION-REQ-012",
+        "ORION-REQ-013",
+        "ORION-REQ-014",
+        "ORION-REQ-015",
+        "ORION-REQ-016",
+        "ORION-REQ-017",
+        "ORION-REQ-018",
+        "ORION-REQ-019",
+        "ORION-REQ-020",
+        "ORION-REQ-021",
+        "ORION-REQ-022",
+        "ORION-REQ-023",
+        "ORION-REQ-024",
+        "ORION-REQ-025",
+        "ORION-REQ-026",
+        "ORION-REQ-027",
+        "ORION-REQ-028",
+        "ORION-REQ-029",
+        "ORION-REQ-030",
+        "ORION-REQ-031",
+        "ORION-REQ-032",
+        "ORION-REQ-033",
+        "ORION-REQ-034",
+        "ORION-REQ-035",
+        "ORION-REQ-036",
+        "ORION-REQ-045",
+        "ORION-REQ-047",
+        "ORION-REQ-049",
+        "ORION-REQ-050"
+      ]
+    },
+    "median_lead_time_days": {
+      "value": 49,
+      "definition": "Median calendar days from submission to completion for completed demands.",
+      "source_ids": [
+        "ORION-REQ-001",
+        "ORION-REQ-002",
+        "ORION-REQ-003",
+        "ORION-REQ-004",
+        "ORION-REQ-005",
+        "ORION-REQ-006",
+        "ORION-REQ-007",
+        "ORION-REQ-008",
+        "ORION-REQ-009"
+      ]
+    },
+    "completed_total": {
+      "value": 9,
+      "definition": "Demands with status Complete.",
+      "source_ids": [
+        "ORION-REQ-001",
+        "ORION-REQ-002",
+        "ORION-REQ-003",
+        "ORION-REQ-004",
+        "ORION-REQ-005",
+        "ORION-REQ-006",
+        "ORION-REQ-007",
+        "ORION-REQ-008",
+        "ORION-REQ-009"
+      ]
+    },
+    "throughput_by_month": {
+      "value": {
+        "2026-09": 1,
+        "2026-10": 7,
+        "2026-11": 1
+      },
+      "definition": "Completed demands per month of the Complete event.",
+      "source_ids": []
+    },
+    "on_time_delivery_pct": {
+      "value": 77.8,
+      "definition": "Completed demands finished on or before the required-by date / completed demands.",
+      "source_ids": [
+        "ORION-REQ-004",
+        "ORION-REQ-007"
+      ]
+    },
+    "stage_ageing_median_days": {
+      "value": {
+        "IN_DELIVERY": 20,
+        "DEFERRED": 13.5,
+        "HANDOFF": 4.0,
+        "APPROVED": 3,
+        "READY_FOR_DECISION": 10,
+        "ASSESSMENT": 11.0,
+        "TRIAGED": 5,
+        "NEEDS_INFO": 11.0,
+        "SUBMITTED": 3
+      },
+      "definition": "Median days open demands have spent in their current status (from the latest matching status event).",
+      "source_ids": []
+    },
+    "stage_ageing_days": {
+      "value": {
+        "ORION-REQ-010": 24,
+        "ORION-REQ-011": 20,
+        "ORION-REQ-012": 6,
+        "ORION-REQ-013": 31,
+        "ORION-REQ-014": 28,
+        "ORION-REQ-015": 17,
+        "ORION-REQ-016": 6,
+        "ORION-REQ-017": 6,
+        "ORION-REQ-018": 20,
+        "ORION-REQ-019": 3,
+        "ORION-REQ-020": 5,
+        "ORION-REQ-021": 3,
+        "ORION-REQ-022": 3,
+        "ORION-REQ-023": 10,
+        "ORION-REQ-024": 10,
+        "ORION-REQ-025": 5,
+        "ORION-REQ-026": 12,
+        "ORION-REQ-027": 3,
+        "ORION-REQ-028": 4,
+        "ORION-REQ-029": 10,
+        "ORION-REQ-030": 4,
+        "ORION-REQ-031": 17,
+        "ORION-REQ-032": 17,
+        "ORION-REQ-033": 12,
+        "ORION-REQ-034": 5,
+        "ORION-REQ-035": 5,
+        "ORION-REQ-036": 3,
+        "ORION-REQ-037": 14,
+        "ORION-REQ-038": 10,
+        "ORION-REQ-039": 4,
+        "ORION-REQ-040": 12,
+        "ORION-REQ-041": 3,
+        "ORION-REQ-042": 3,
+        "ORION-REQ-044": 7,
+        "ORION-REQ-045": 17,
+        "ORION-REQ-049": 10,
+        "ORION-REQ-050": 10
+      },
+      "definition": "Days in current status per open demand.",
+      "source_ids": []
+    },
+    "decision_outcomes": {
+      "value": {
+        "approved": 21,
+        "deferred": 4,
+        "rejected": 2
+      },
+      "definition": "Recorded decisions on or before the cutoff (decisions.csv).",
+      "source_ids": [
+        "DEC-001",
+        "DEC-002",
+        "DEC-003",
+        "DEC-004",
+        "DEC-005",
+        "DEC-006",
+        "DEC-007",
+        "DEC-008",
+        "DEC-009",
+        "DEC-010",
+        "DEC-011",
+        "DEC-012",
+        "DEC-013",
+        "DEC-014",
+        "DEC-015",
+        "DEC-016",
+        "DEC-017",
+        "DEC-018",
+        "DEC-019",
+        "DEC-020",
+        "DEC-021",
+        "DEC-022",
+        "DEC-023",
+        "DEC-024",
+        "DEC-025",
+        "DEC-026",
+        "DEC-027"
+      ]
+    },
+    "routed_out": {
+      "value": 2,
+      "definition": "Records routed out of the demand pipeline (incidents, standard service requests).",
+      "source_ids": [
+        "ORION-REQ-043",
+        "ORION-REQ-048"
+      ]
+    },
+    "high_priority_not_approvable": {
+      "value": 10,
+      "definition": "Undecided or deferred demands in band High or Highest that fail at least one gate today.",
+      "source_ids": [
+        "ORION-REQ-017",
+        "ORION-REQ-023",
+        "ORION-REQ-027",
+        "ORION-REQ-030",
+        "ORION-REQ-033",
+        "ORION-REQ-036",
+        "ORION-REQ-037",
+        "ORION-REQ-038",
+        "ORION-REQ-040",
+        "ORION-REQ-042"
+      ]
+    },
+    "capacity_utilisation_pct": {
+      "value": {
+        "NET|2026-08": 50.0,
+        "NET|2026-09": 74.0,
+        "NET|2026-10": 97.1,
+        "NET|2026-11": 95.8,
+        "NET|2026-12": 108.3,
+        "NET|2027-01": 81.2,
+        "NET|2027-02": 83.3,
+        "PLAT|2026-08": 55.3,
+        "PLAT|2026-09": 80.3,
+        "PLAT|2026-10": 94.7,
+        "PLAT|2026-11": 90.6,
+        "PLAT|2026-12": 75.0,
+        "PLAT|2027-01": 63.6,
+        "PLAT|2027-02": 55.2,
+        "SEC|2026-08": 55.1,
+        "SEC|2026-09": 76.9,
+        "SEC|2026-10": 96.9,
+        "SEC|2026-11": 96.9,
+        "SEC|2026-12": 97.1,
+        "SEC|2027-01": 71.9,
+        "SEC|2027-02": 55.0
+      },
+      "definition": "Allocated hours / available hours per team and month (synthetic planning data).",
+      "source_ids": []
+    },
+    "overallocated_team_months": {
+      "value": 1,
+      "definition": "Team-months where allocated hours exceed available hours.",
+      "source_ids": [
+        "NET|2026-12"
+      ]
+    },
+    "finance_budget_period_eur": {
+      "value": 1050000,
+      "definition": "Sum over cost centres of budget_period_eur (see finance.py for the definition).",
+      "source_ids": []
+    },
+    "finance_actual_eur": {
+      "value": 643450,
+      "definition": "Sum over cost centres of actual_eur (see finance.py for the definition).",
+      "source_ids": []
+    },
+    "finance_open_commitments_eur": {
+      "value": 238250,
+      "definition": "Sum over cost centres of open_commitments_eur (see finance.py for the definition).",
+      "source_ids": []
+    },
+    "finance_approved_not_committed_eur": {
+      "value": 55000,
+      "definition": "Sum over cost centres of approved_not_committed_eur (see finance.py for the definition).",
+      "source_ids": []
+    },
+    "finance_forecast_eac_eur": {
+      "value": 936700,
+      "definition": "Sum over cost centres of forecast_eac_eur (see finance.py for the definition).",
+      "source_ids": []
+    },
+    "finance_forecast_variance_eur": {
+      "value": -113300,
+      "definition": "Sum over cost centres of forecast_variance_eur (see finance.py for the definition).",
+      "source_ids": []
+    },
+    "finance_unmapped_actual_eur": {
+      "value": 4300,
+      "definition": "Valid spend booked to a cost centre without a budget.",
+      "source_ids": [
+        "INV-9002"
+      ]
+    },
+    "finance_allocation_coverage_pct": {
+      "value": 99.34,
+      "definition": "Valid spend mapped to a budgeted cost centre / all valid spend.",
+      "source_ids": []
+    },
+    "finance_excluded_eur_gross": {
+      "value": 4300,
+      "definition": "EUR invoice rows excluded as invalid, sum of absolute values. EUR rows only; duplicates not included.",
+      "source_ids": [
+        "INV-9004",
+        "INV-9008"
+      ]
+    },
+    "finance_excluded_eur_net": {
+      "value": 1900,
+      "definition": "EUR invoice rows excluded as invalid, signed sum. EUR rows only; duplicates not included.",
+      "source_ids": [
+        "INV-9004",
+        "INV-9008"
+      ]
+    },
+    "finance_excluded_foreign": {
+      "value": {
+        "USD": 5000
+      },
+      "definition": "Invoice rows excluded because they are not in EUR and no approved conversion rate exists, per original currency. Not converted and not part of any EUR figure.",
+      "source_ids": [
+        "INV-9006"
+      ]
+    },
+    "finance_unreconciled_po_eur": {
+      "value": 1000.0,
+      "definition": "Absolute difference between the purchase-order ledger and the linked valid invoices. The forecast uses the ledger; it is unreliable by this amount until reconciled.",
+      "source_ids": [
+        "PO-015"
+      ]
+    },
+    "finance_forecast_eac_invoice_basis_eur": {
+      "value": 935700.0,
+      "definition": "Forecast EAC if unreconciled purchase orders were valued from their invoices instead of the ledger.",
+      "source_ids": [
+        "PO-015"
+      ]
+    }
+  },
+  "finance": {
+    "by_cost_centre": {
+      "CC-ENG-DATA": {
+        "cost_center": "CC-ENG-DATA",
+        "budget_period_eur": 200000,
+        "budget_to_date_eur": 160000,
+        "actual_eur": 95150,
+        "open_commitments_eur": 30900,
+        "approved_not_committed_eur": 50000,
+        "uncommitted_budget_eur": 73950,
+        "variance_to_date_eur": -64850,
+        "forecast_eac_eur": 176050,
+        "forecast_variance_eur": -23950
+      },
+      "CC-ENG-SIM": {
+        "cost_center": "CC-ENG-SIM",
+        "budget_period_eur": 225000,
+        "budget_to_date_eur": 180000,
+        "actual_eur": 169400,
+        "open_commitments_eur": 59400,
+        "approved_not_committed_eur": 0,
+        "uncommitted_budget_eur": -3800,
+        "variance_to_date_eur": -10600,
+        "forecast_eac_eur": 228800,
+        "forecast_variance_eur": 3800
+      },
+      "CC-DIG-INFRA": {
+        "cost_center": "CC-DIG-INFRA",
+        "budget_period_eur": 350000,
+        "budget_to_date_eur": 280000,
+        "actual_eur": 197200,
+        "open_commitments_eur": 84250,
+        "approved_not_committed_eur": 0,
+        "uncommitted_budget_eur": 68550,
+        "variance_to_date_eur": -82800,
+        "forecast_eac_eur": 281450,
+        "forecast_variance_eur": -68550
+      },
+      "CC-SEC-OPS": {
+        "cost_center": "CC-SEC-OPS",
+        "budget_period_eur": 175000,
+        "budget_to_date_eur": 140000,
+        "actual_eur": 117200,
+        "open_commitments_eur": 45600,
+        "approved_not_committed_eur": 0,
+        "uncommitted_budget_eur": 12200,
+        "variance_to_date_eur": -22800,
+        "forecast_eac_eur": 162800,
+        "forecast_variance_eur": -12200
+      },
+      "CC-COLLAB": {
+        "cost_center": "CC-COLLAB",
+        "budget_period_eur": 100000,
+        "budget_to_date_eur": 80000,
+        "actual_eur": 64500,
+        "open_commitments_eur": 18100,
+        "approved_not_committed_eur": 5000,
+        "uncommitted_budget_eur": 17400,
+        "variance_to_date_eur": -15500,
+        "forecast_eac_eur": 87600,
+        "forecast_variance_eur": -12400
+      }
+    },
+    "totals": {
+      "budget_period_eur": 1050000,
+      "budget_to_date_eur": 840000,
+      "actual_eur": 643450,
+      "open_commitments_eur": 238250,
+      "approved_not_committed_eur": 55000,
+      "uncommitted_budget_eur": 168300,
+      "variance_to_date_eur": -196550,
+      "forecast_eac_eur": 936700,
+      "forecast_variance_eur": -113300
+    },
+    "unmapped_actual_eur": 4300,
+    "unmapped_invoice_ids": [
+      "INV-9002"
+    ],
+    "excluded": [
+      {
+        "invoice_id": "INV-0021",
+        "reason": "DUPLICATE_INVOICE",
+        "amount": 62000,
+        "currency": "EUR",
+        "amount_eur": 62000,
+        "cost_center": "CC-ENG-SIM"
+      },
+      {
+        "invoice_id": "INV-9004",
+        "reason": "INVALID_AMOUNT",
+        "amount": -1200,
+        "currency": "EUR",
+        "amount_eur": -1200,
+        "cost_center": "CC-DIG-INFRA"
+      },
+      {
+        "invoice_id": "INV-9006",
+        "reason": "UNSUPPORTED_CURRENCY",
+        "amount": 5000,
+        "currency": "USD",
+        "amount_eur": null,
+        "cost_center": "CC-SEC-OPS"
+      },
+      {
+        "invoice_id": "INV-9008",
+        "reason": "INVALID_DATE",
+        "amount": 3100,
+        "currency": "EUR",
+        "amount_eur": 3100,
+        "cost_center": "CC-ENG-SIM"
+      }
+    ],
+    "excluded_by_currency": {
+      "EUR": {
+        "net": 1900,
+        "gross": 4300,
+        "invoice_ids": [
+          "INV-9004",
+          "INV-9008"
+        ]
+      },
+      "USD": {
+        "net": 5000,
+        "gross": 5000,
+        "invoice_ids": [
+          "INV-9006"
+        ]
+      }
+    },
+    "unreconciled_pos": [
+      {
+        "po_id": "PO-015",
+        "cost_center": "CC-DIG-INFRA",
+        "external_id": "ORION-REQ-015",
+        "approved_eur": 10200,
+        "ledger_recognized_eur": 3800,
+        "invoiced_eur": 4800.0,
+        "difference_eur": 1000.0,
+        "outstanding_ledger_basis_eur": 6400,
+        "outstanding_invoice_basis_eur": 5400.0,
+        "forecast_effect_eur": -1000.0
+      }
+    ],
+    "forecast_uncertainty_eur": -1000.0,
+    "after_cutoff": [
+      {
+        "invoice_id": "INV-9009",
+        "amount_eur": 6400,
+        "invoice_date": "2026-11-20",
+        "cost_center": "CC-ENG-DATA"
+      }
+    ]
+  },
+  "capacity": {
+    "NET|2026-08": {
+      "available": 408,
+      "allocated": 204,
+      "remaining": 204,
+      "demand_ids": []
+    },
+    "NET|2026-09": {
+      "available": 480,
+      "allocated": 355,
+      "remaining": 125,
+      "demand_ids": [
+        "ORION-REQ-003",
+        "ORION-REQ-007"
+      ]
+    },
+    "NET|2026-10": {
+      "available": 480,
+      "allocated": 466,
+      "remaining": 14,
+      "demand_ids": [
+        "ORION-REQ-003",
+        "ORION-REQ-007",
+        "ORION-REQ-012",
+        "ORION-REQ-015"
+      ]
+    },
+    "NET|2026-11": {
+      "available": 480,
+      "allocated": 460,
+      "remaining": 20,
+      "demand_ids": [
+        "ORION-REQ-012",
+        "ORION-REQ-015",
+        "ORION-REQ-019"
+      ]
+    },
+    "NET|2026-12": {
+      "available": 360,
+      "allocated": 390,
+      "remaining": -30,
+      "demand_ids": [
+        "ORION-REQ-019"
+      ]
+    },
+    "NET|2027-01": {
+      "available": 480,
+      "allocated": 390,
+      "remaining": 90,
+      "demand_ids": [
+        "ORION-REQ-019"
+      ]
+    },
+    "NET|2027-02": {
+      "available": 480,
+      "allocated": 400,
+      "remaining": 80,
+      "demand_ids": []
+    },
+    "PLAT|2026-08": {
+      "available": 544,
+      "allocated": 301,
+      "remaining": 243,
+      "demand_ids": [
+        "ORION-REQ-004",
+        "ORION-REQ-006"
+      ]
+    },
+    "PLAT|2026-09": {
+      "available": 640,
+      "allocated": 514,
+      "remaining": 126,
+      "demand_ids": [
+        "ORION-REQ-001",
+        "ORION-REQ-002",
+        "ORION-REQ-004",
+        "ORION-REQ-006"
+      ]
+    },
+    "PLAT|2026-10": {
+      "available": 640,
+      "allocated": 606,
+      "remaining": 34,
+      "demand_ids": [
+        "ORION-REQ-001",
+        "ORION-REQ-002",
+        "ORION-REQ-004",
+        "ORION-REQ-009",
+        "ORION-REQ-011",
+        "ORION-REQ-013"
+      ]
+    },
+    "PLAT|2026-11": {
+      "available": 640,
+      "allocated": 580,
+      "remaining": 60,
+      "demand_ids": [
+        "ORION-REQ-009",
+        "ORION-REQ-011",
+        "ORION-REQ-013",
+        "ORION-REQ-021",
+        "ORION-REQ-022",
+        "ORION-REQ-050"
+      ]
+    },
+    "PLAT|2026-12": {
+      "available": 480,
+      "allocated": 360,
+      "remaining": 120,
+      "demand_ids": [
+        "ORION-REQ-011",
+        "ORION-REQ-021",
+        "ORION-REQ-022",
+        "ORION-REQ-050"
+      ]
+    },
+    "PLAT|2027-01": {
+      "available": 640,
+      "allocated": 407,
+      "remaining": 233,
+      "demand_ids": [
+        "ORION-REQ-022",
+        "ORION-REQ-050"
+      ]
+    },
+    "PLAT|2027-02": {
+      "available": 640,
+      "allocated": 353,
+      "remaining": 287,
+      "demand_ids": [
+        "ORION-REQ-022"
+      ]
+    },
+    "SEC|2026-08": {
+      "available": 272,
+      "allocated": 150,
+      "remaining": 122,
+      "demand_ids": []
+    },
+    "SEC|2026-09": {
+      "available": 320,
+      "allocated": 246,
+      "remaining": 74,
+      "demand_ids": [
+        "ORION-REQ-005"
+      ]
+    },
+    "SEC|2026-10": {
+      "available": 320,
+      "allocated": 310,
+      "remaining": 10,
+      "demand_ids": [
+        "ORION-REQ-005",
+        "ORION-REQ-008",
+        "ORION-REQ-010",
+        "ORION-REQ-014"
+      ]
+    },
+    "SEC|2026-11": {
+      "available": 320,
+      "allocated": 310,
+      "remaining": 10,
+      "demand_ids": [
+        "ORION-REQ-010",
+        "ORION-REQ-014",
+        "ORION-REQ-016",
+        "ORION-REQ-020"
+      ]
+    },
+    "SEC|2026-12": {
+      "available": 240,
+      "allocated": 233,
+      "remaining": 7,
+      "demand_ids": [
+        "ORION-REQ-010",
+        "ORION-REQ-014",
+        "ORION-REQ-016",
+        "ORION-REQ-020"
+      ]
+    },
+    "SEC|2027-01": {
+      "available": 320,
+      "allocated": 230,
+      "remaining": 90,
+      "demand_ids": [
+        "ORION-REQ-016"
+      ]
+    },
+    "SEC|2027-02": {
+      "available": 320,
+      "allocated": 176,
+      "remaining": 144,
+      "demand_ids": []
+    }
+  },
+  "exceptions": [
+    {
+      "code": "INVALID_AMOUNT",
+      "severity": "CRITICAL",
+      "record_id": "INV-9004",
+      "source": "actuals.csv",
+      "cost_center": "CC-DIG-INFRA",
+      "amount_eur": -1200,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Negative amount without a credit-note reference; row excluded.",
+      "risk": "Row is excluded; totals may be wrong in either direction.",
+      "proposed_action": "Check the source document; re-enter as a credit note with reference if it is a credit.",
+      "decision_owner": "Finance Controller",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "INVALID_DATE",
+      "severity": "CRITICAL",
+      "record_id": "INV-9008",
+      "source": "actuals.csv",
+      "cost_center": "CC-ENG-SIM",
+      "amount_eur": 3100,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Invoice date '2026-13-45' is not a valid date; row excluded.",
+      "risk": "Amount cannot be assigned to a period; actuals may be understated.",
+      "proposed_action": "Correct the invoice date in the source ledger and re-run the report.",
+      "decision_owner": "Finance Controller",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "MISSING_APPROVER",
+      "severity": "CRITICAL",
+      "record_id": "ORION-REQ-021",
+      "source": "decisions.csv",
+      "cost_center": "CC-COLLAB",
+      "amount_eur": 5000,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Decision DEC-021 (approved) has no authorised approver role (found: 'blank').",
+      "risk": "An approval exists without an accountable approver; the decision is not auditable.",
+      "proposed_action": "Confirm who approved and complete the decision record; until then treat the approval as unconfirmed.",
+      "decision_owner": "Head of Digital Infrastructure",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "PO_RECONCILIATION_MISMATCH",
+      "severity": "CRITICAL",
+      "record_id": "PO-015",
+      "source": "commitments.csv",
+      "cost_center": "CC-DIG-INFRA",
+      "amount_eur": 1000.0,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Ledger shows 3,800 EUR recognised, linked valid invoices total 4,800 EUR.",
+      "risk": "Open commitment and forecast are wrong by the difference.",
+      "proposed_action": "Reconcile the purchase order ledger with the invoices and correct the recognised amount.",
+      "decision_owner": "Finance Controller",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "UNKNOWN_COST_CENTER",
+      "severity": "CRITICAL",
+      "record_id": "INV-9002",
+      "source": "actuals.csv",
+      "cost_center": "CC-UNKNOWN-99",
+      "amount_eur": 4300,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Cost centre 'CC-UNKNOWN-99' has no budget; amount is reported as unmapped spend.",
+      "risk": "Spend is not allocated to any budget; cost-centre totals are incomplete.",
+      "proposed_action": "Assign the invoice to a valid cost centre.",
+      "decision_owner": "Finance Controller",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "UNSUPPORTED_CURRENCY",
+      "severity": "CRITICAL",
+      "record_id": "INV-9006",
+      "source": "actuals.csv",
+      "cost_center": "CC-SEC-OPS",
+      "amount_eur": "",
+      "currency": "USD",
+      "amount_original": 5000,
+      "message": "Amount is in 'USD' and no approved conversion rate to EUR exists; row excluded and reported in USD, not added to any EUR figure.",
+      "risk": "Amount is excluded; actuals may be understated.",
+      "proposed_action": "Provide the EUR value booked in the ledger or an approved conversion rate.",
+      "decision_owner": "Finance Controller",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "CAPACITY_OVERALLOCATED",
+      "severity": "WARNING",
+      "record_id": "NET/2026-12",
+      "source": "capacity.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Network and Access is allocated 390 h against 360 h available (30 h over). Approved demands in this month: ORION-REQ-019.",
+      "risk": "Committed delivery dates are at risk; the team is promised more hours than it has.",
+      "proposed_action": "Re-plan with the delivery lead: move a start date, release run work, or defer one approved demand.",
+      "decision_owner": "Head of Digital Infrastructure",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "DUPLICATE_INVOICE",
+      "severity": "WARNING",
+      "record_id": "INV-0021",
+      "source": "actuals.csv",
+      "cost_center": "CC-ENG-SIM",
+      "amount_eur": 62000,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Invoice id INV-0021 appears more than once; counted once.",
+      "risk": "Spend would be overstated if both rows were counted.",
+      "proposed_action": "Confirm with accounts payable which row is valid and remove the duplicate from the ledger export.",
+      "decision_owner": "Finance Controller",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "FORECAST_OVERRUN",
+      "severity": "WARNING",
+      "record_id": "CC-ENG-SIM",
+      "source": "forecast",
+      "cost_center": "CC-ENG-SIM",
+      "amount_eur": 3800,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Forecast at completion 228,800 EUR exceeds the period budget of 225,000 EUR.",
+      "risk": "Cost centre is forecast to exceed its approved budget.",
+      "proposed_action": "Decide: defer uncommitted work, reallocate budget from a cost centre with headroom, or request a budget increase.",
+      "decision_owner": "Head of Digital Infrastructure",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "INVALID_TRANSITION",
+      "severity": "WARNING",
+      "record_id": "ORION-REQ-044",
+      "source": "status_events.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "EVT-0248: transition SUBMITTED -> ASSESSMENT is not allowed.",
+      "risk": "Status history skips a control step.",
+      "proposed_action": "Correct the history entry or repeat the skipped step.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "MISSING_COST_CENTER",
+      "severity": "WARNING",
+      "record_id": "ORION-REQ-039",
+      "source": "demands.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Cost centre '' is missing or has no budget.",
+      "risk": "Cost cannot be checked against a budget; the funding gate is unavailable.",
+      "proposed_action": "Ask the requester for the funding cost centre.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "MISSING_OWNER",
+      "severity": "WARNING",
+      "record_id": "ORION-REQ-031",
+      "source": "demands.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Open demand in status Assessment has no assigned owner.",
+      "risk": "Nobody is accountable for moving the demand forward.",
+      "proposed_action": "Assign a demand analyst.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-18"
+    },
+    {
+      "code": "MISSING_OWNER",
+      "severity": "WARNING",
+      "record_id": "ORION-REQ-041",
+      "source": "demands.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Open demand in status Submitted has no assigned owner.",
+      "risk": "Nobody is accountable for moving the demand forward.",
+      "proposed_action": "Assign a demand analyst.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-18"
+    },
+    {
+      "code": "MISSING_OWNER",
+      "severity": "WARNING",
+      "record_id": "ORION-REQ-044",
+      "source": "demands.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Open demand in status Submitted has no assigned owner.",
+      "risk": "Nobody is accountable for moving the demand forward.",
+      "proposed_action": "Assign a demand analyst.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-18"
+    },
+    {
+      "code": "MISSING_REFERENCE",
+      "severity": "WARNING",
+      "record_id": "INV-9007",
+      "source": "actuals.csv",
+      "cost_center": "CC-DIG-INFRA",
+      "amount_eur": 1900,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Invoice refers to demand 'ORION-REQ-999', which does not exist.",
+      "risk": "Spend cannot be traced to a demand.",
+      "proposed_action": "Link the invoice to the correct demand or mark it as run cost.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "PO_OVER_RECOGNIZED",
+      "severity": "WARNING",
+      "record_id": "PO-9010",
+      "source": "commitments.csv",
+      "cost_center": "CC-SEC-OPS",
+      "amount_eur": 600,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Recognised 4,600 EUR exceeds the approved commitment of 4,000 EUR.",
+      "risk": "More was invoiced than was approved on the purchase order.",
+      "proposed_action": "Check for scope change; raise a purchase order amendment for approval if justified.",
+      "decision_owner": "Head of Digital Infrastructure",
+      "due_date": "2026-11-23"
+    },
+    {
+      "code": "STATUS_MISMATCH",
+      "severity": "WARNING",
+      "record_id": "ORION-REQ-044",
+      "source": "status_events.csv",
+      "cost_center": "",
+      "amount_eur": "",
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Register says SUBMITTED, latest history entry EVT-0248 says ASSESSMENT.",
+      "risk": "Register and status history disagree; counts by status may be wrong.",
+      "proposed_action": "Confirm the true status with the owner and correct the wrong source.",
+      "decision_owner": "Demand Manager",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "UNAPPROVED_SPEND",
+      "severity": "WARNING",
+      "record_id": "INV-9003",
+      "source": "actuals.csv",
+      "cost_center": "CC-ENG-DATA",
+      "amount_eur": 2750,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Spend booked on ORION-REQ-028 without an approval decision at the invoice date.",
+      "risk": "Money was spent before a funding decision; the approval control was bypassed.",
+      "proposed_action": "Clarify who ordered the work; bring the demand to the next board or reverse the booking.",
+      "decision_owner": "Head of Digital Infrastructure",
+      "due_date": "2026-11-19"
+    },
+    {
+      "code": "AFTER_CUTOFF",
+      "severity": "INFO",
+      "record_id": "INV-9009",
+      "source": "actuals.csv",
+      "cost_center": "CC-ENG-DATA",
+      "amount_eur": 6400,
+      "currency": "EUR",
+      "amount_original": "",
+      "message": "Invoice dated 2026-11-20 is after the cutoff and not included.",
+      "risk": "None for this report; the amount appears in the next period.",
+      "proposed_action": "No action; shown for transparency.",
+      "decision_owner": "Reporting Owner",
+      "due_date": ""
+    }
+  ],
+  "exception_counts": {
+    "CRITICAL": 6,
+    "WARNING": 12,
+    "INFO": 1
+  },
+  "review_queue": [
+    {
+      "external_id": "ORION-REQ-023",
+      "status": "READY_FOR_DECISION",
+      "score": 90.0,
+      "band": "Highest",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "capacity"
+      ],
+      "recommendation": "Not approvable as submitted: capacity gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-027",
+      "status": "READY_FOR_DECISION",
+      "score": 85.0,
+      "band": "Highest",
+      "funding_pass": false,
+      "capacity_pass": false,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "funding",
+        "capacity"
+      ],
+      "recommendation": "Not approvable as submitted: funding, capacity gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-042",
+      "status": "SUBMITTED",
+      "score": 82.0,
+      "band": "Highest",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": false,
+      "info_complete": true,
+      "failed": [
+        "capacity",
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: capacity, security review gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-017",
+      "status": "DEFERRED",
+      "score": 82.0,
+      "band": "Highest",
+      "funding_pass": false,
+      "capacity_pass": false,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "funding",
+        "capacity"
+      ],
+      "recommendation": "Not approvable as submitted: funding, capacity gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-036",
+      "status": "TRIAGED",
+      "score": 80.0,
+      "band": "Highest",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": false,
+      "info_complete": true,
+      "failed": [
+        "capacity",
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: capacity, security review gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-025",
+      "status": "READY_FOR_DECISION",
+      "score": 80.0,
+      "band": "Highest",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [],
+      "recommendation": "Eligible for an approval decision: all gates pass."
+    },
+    {
+      "external_id": "ORION-REQ-030",
+      "status": "ASSESSMENT",
+      "score": 75.0,
+      "band": "High",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": false,
+      "info_complete": true,
+      "failed": [
+        "capacity",
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: capacity, security review gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-033",
+      "status": "ASSESSMENT",
+      "score": 73.0,
+      "band": "High",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": false,
+      "info_complete": true,
+      "failed": [
+        "capacity",
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: capacity, security review gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-040",
+      "status": "NEEDS_INFO",
+      "score": 72.0,
+      "band": "High",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": true,
+      "info_complete": false,
+      "failed": [
+        "information",
+        "capacity"
+      ],
+      "recommendation": "Not approvable as submitted: information, capacity gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-038",
+      "status": "NEEDS_INFO",
+      "score": 72.0,
+      "band": "High",
+      "funding_pass": false,
+      "capacity_pass": false,
+      "security_pass": false,
+      "info_complete": false,
+      "failed": [
+        "information",
+        "funding",
+        "capacity",
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: information, funding, capacity, security review gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-037",
+      "status": "NEEDS_INFO",
+      "score": 65.0,
+      "band": "High",
+      "funding_pass": false,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": false,
+      "failed": [
+        "information",
+        "funding"
+      ],
+      "recommendation": "Not approvable as submitted: information, funding gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-028",
+      "status": "ASSESSMENT",
+      "score": 65.0,
+      "band": "High",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [],
+      "recommendation": "Eligible for an approval decision: all gates pass."
+    },
+    {
+      "external_id": "ORION-REQ-032",
+      "status": "ASSESSMENT",
+      "score": 63.0,
+      "band": "Medium",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [],
+      "recommendation": "Eligible for an approval decision: all gates pass."
+    },
+    {
+      "external_id": "ORION-REQ-034",
+      "status": "TRIAGED",
+      "score": 63.0,
+      "band": "Medium",
+      "funding_pass": false,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "funding"
+      ],
+      "recommendation": "Not approvable as submitted: funding gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-049",
+      "status": "DEFERRED",
+      "score": 61.0,
+      "band": "Medium",
+      "funding_pass": false,
+      "capacity_pass": true,
+      "security_pass": false,
+      "info_complete": true,
+      "failed": [
+        "funding",
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: funding, security review gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-024",
+      "status": "READY_FOR_DECISION",
+      "score": 60.0,
+      "band": "Medium",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": false,
+      "info_complete": true,
+      "failed": [
+        "security review"
+      ],
+      "recommendation": "Not approvable as submitted: security review gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-018",
+      "status": "DEFERRED",
+      "score": 60.0,
+      "band": "Medium",
+      "funding_pass": false,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "funding"
+      ],
+      "recommendation": "Not approvable as submitted: funding gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-045",
+      "status": "DEFERRED",
+      "score": 60.0,
+      "band": "Medium",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [],
+      "recommendation": "Eligible for an approval decision: all gates pass."
+    },
+    {
+      "external_id": "ORION-REQ-029",
+      "status": "ASSESSMENT",
+      "score": 55.0,
+      "band": "Medium",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "capacity"
+      ],
+      "recommendation": "Not approvable as submitted: capacity gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-026",
+      "status": "READY_FOR_DECISION",
+      "score": 55.0,
+      "band": "Medium",
+      "funding_pass": false,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [
+        "funding"
+      ],
+      "recommendation": "Not approvable as submitted: funding gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-031",
+      "status": "ASSESSMENT",
+      "score": 52.0,
+      "band": "Medium",
+      "funding_pass": true,
+      "capacity_pass": false,
+      "security_pass": true,
+      "info_complete": false,
+      "failed": [
+        "information",
+        "capacity"
+      ],
+      "recommendation": "Not approvable as submitted: information, capacity gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-039",
+      "status": "NEEDS_INFO",
+      "score": 48.0,
+      "band": "Medium",
+      "funding_pass": null,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": false,
+      "failed": [
+        "information",
+        "funding"
+      ],
+      "recommendation": "Not approvable as submitted: information, funding gates not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-041",
+      "status": "SUBMITTED",
+      "score": 40.0,
+      "band": "Low",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": false,
+      "failed": [
+        "information"
+      ],
+      "recommendation": "Not approvable as submitted: information gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-044",
+      "status": "SUBMITTED",
+      "score": 38.0,
+      "band": "Low",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": false,
+      "failed": [
+        "information"
+      ],
+      "recommendation": "Not approvable as submitted: information gate not passed. Options: defer, reduce scope, reallocate, or record an explicit exception."
+    },
+    {
+      "external_id": "ORION-REQ-035",
+      "status": "TRIAGED",
+      "score": 20.0,
+      "band": "Lowest",
+      "funding_pass": true,
+      "capacity_pass": true,
+      "security_pass": true,
+      "info_complete": true,
+      "failed": [],
+      "recommendation": "Eligible for an approval decision: all gates pass."
+    }
+  ],
+  "decisions_required": [
+    {
+      "topic": "ORION-REQ-023 VPN access modernisation for cross-site collaboration",
+      "decision": "Cannot be approved as submitted (capacity). Decide: defer with review date, reduce scope, or reallocate.",
+      "owner": "Infrastructure Demand Board Chair",
+      "due": "2026-11-17",
+      "evidence": "score 90.0 (Highest); funding: Forecast 281,450 + request 38,000 = 319,450 EUR against a budget of 350,000 EUR (within budget). capacity: 280 h needed, 190 h unallocated for Network and Access in 2026-11 to 2027-02 (shortfall of 90 h)."
+    },
+    {
+      "topic": "ORION-REQ-027 Network segmentation for the integration lab",
+      "decision": "Cannot be approved as submitted (funding, capacity). Decide: defer with review date, reduce scope, or reallocate.",
+      "owner": "Infrastructure Demand Board Chair",
+      "due": "2026-11-17",
+      "evidence": "score 85.0 (Highest); funding: Forecast 162,800 + request 17,000 = 179,800 EUR against a budget of 175,000 EUR (overrun of 4,800 EUR). capacity: 150 h needed, 20 h unallocated for Network and Access in 2026-11 to 2026-12 (shortfall of 130 h)."
+    },
+    {
+      "topic": "ORION-REQ-025 DR runbook automation and failover test environment",
+      "decision": "Approve or defer; all gates pass.",
+      "owner": "Infrastructure Demand Board Chair",
+      "due": "2026-11-17",
+      "evidence": "score 80.0 (Highest); funding: Forecast 281,450 + request 19,000 = 300,450 EUR against a budget of 350,000 EUR (within budget). capacity: 170 h needed, 413 h unallocated for Platform and Storage in 2026-11 to 2027-01 (fits)."
+    },
+    {
+      "topic": "ORION-REQ-024 Cloud-hosted analytics pilot for test-campaign data",
+      "decision": "Cannot be approved as submitted (security review). Decide: defer with review date, reduce scope, or reallocate.",
+      "owner": "Infrastructure Demand Board Chair",
+      "due": "2026-11-17",
+      "evidence": "score 60.0 (Medium); funding: Forecast 176,050 + request 12,000 = 188,050 EUR against a budget of 200,000 EUR (within budget). capacity: 140 h needed, 413 h unallocated for Platform and Storage in 2026-11 to 2027-01 (fits)."
+    },
+    {
+      "topic": "ORION-REQ-026 Engineering desktop virtualisation pilot Bremen",
+      "decision": "Cannot be approved as submitted (funding). Decide: defer with review date, reduce scope, or reallocate.",
+      "owner": "Infrastructure Demand Board Chair",
+      "due": "2026-11-17",
+      "evidence": "score 55.0 (Medium); funding: Forecast 228,800 + request 28,000 = 256,800 EUR against a budget of 225,000 EUR (overrun of 31,800 EUR). capacity: 190 h needed, 700 h unallocated for Platform and Storage in 2026-11 to 2027-02 (fits)."
+    },
+    {
+      "topic": "CC-ENG-SIM forecast overrun",
+      "decision": "Forecast exceeds budget by \u20ac3,800. Decide: reallocate budget, defer uncommitted work, or accept the overrun.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-17",
+      "evidence": "EAC \u20ac228,800 vs budget \u20ac225,000"
+    },
+    {
+      "topic": "Network and Access over-allocated in 2026-12",
+      "decision": "30 h more are committed than available. Decide which approved work moves.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-17",
+      "evidence": "allocated 390 h, available 360 h; demands: ORION-REQ-019"
+    },
+    {
+      "topic": "ORION-REQ-021: missing approver",
+      "decision": "Confirm who approved and complete the decision record; until then treat the approval as unconfirmed.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-19",
+      "evidence": "Decision DEC-021 (approved) has no authorised approver role (found: 'blank')."
+    },
+    {
+      "topic": "INV-9003: unapproved spend",
+      "decision": "Clarify who ordered the work; bring the demand to the next board or reverse the booking.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-19",
+      "evidence": "Spend booked on ORION-REQ-028 without an approval decision at the invoice date."
+    },
+    {
+      "topic": "ORION-REQ-017 Engineering Data Repository Expansion (deferred)",
+      "decision": "Re-review at the scheduled board; confirm the open follow-up items are closed before then.",
+      "owner": "Infrastructure Demand Board Chair",
+      "due": "2026-12-08",
+      "evidence": "Deferred to the 8 December board. Option A (additional managed storage) would push CC-ENG-DATA above its approved budget for the period and needs 300 engineer-hours where Platform and Storage has 180 available before the required date. Option B (archive and optimise) fits both gates but frees only part of the requested capacity and requires data-owner sign-off on archive retention classes, which is outstanding. No spend is authorised now."
+    }
+  ],
+  "actions": [
+    {
+      "ref": "ORION-REQ-031",
+      "action": "Assign a demand analyst.",
+      "owner": "Demand Manager",
+      "due": "2026-11-18",
+      "kind": "MISSING_OWNER"
+    },
+    {
+      "ref": "ORION-REQ-041",
+      "action": "Assign a demand analyst.",
+      "owner": "Demand Manager",
+      "due": "2026-11-18",
+      "kind": "MISSING_OWNER"
+    },
+    {
+      "ref": "ORION-REQ-044",
+      "action": "Assign a demand analyst.",
+      "owner": "Demand Manager",
+      "due": "2026-11-18",
+      "kind": "MISSING_OWNER"
+    },
+    {
+      "ref": "INV-9002",
+      "action": "Assign the invoice to a valid cost centre.",
+      "owner": "Finance Controller",
+      "due": "2026-11-19",
+      "kind": "UNKNOWN_COST_CENTER"
+    },
+    {
+      "ref": "INV-9003",
+      "action": "Clarify who ordered the work; bring the demand to the next board or reverse the booking.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-19",
+      "kind": "UNAPPROVED_SPEND"
+    },
+    {
+      "ref": "INV-9004",
+      "action": "Check the source document; re-enter as a credit note with reference if it is a credit.",
+      "owner": "Finance Controller",
+      "due": "2026-11-19",
+      "kind": "INVALID_AMOUNT"
+    },
+    {
+      "ref": "INV-9006",
+      "action": "Provide the EUR value booked in the ledger or an approved conversion rate.",
+      "owner": "Finance Controller",
+      "due": "2026-11-19",
+      "kind": "UNSUPPORTED_CURRENCY"
+    },
+    {
+      "ref": "INV-9008",
+      "action": "Correct the invoice date in the source ledger and re-run the report.",
+      "owner": "Finance Controller",
+      "due": "2026-11-19",
+      "kind": "INVALID_DATE"
+    },
+    {
+      "ref": "ORION-REQ-012",
+      "action": "Overdue since 2026-11-13: agree a new date with the requester or escalate.",
+      "owner": "Delivery Lead Network and Access",
+      "due": "2026-11-19",
+      "kind": "overdue"
+    },
+    {
+      "ref": "ORION-REQ-015",
+      "action": "Overdue since 2026-11-09: agree a new date with the requester or escalate.",
+      "owner": "Delivery Lead Network and Access",
+      "due": "2026-11-19",
+      "kind": "overdue"
+    },
+    {
+      "ref": "ORION-REQ-021",
+      "action": "Confirm who approved and complete the decision record; until then treat the approval as unconfirmed.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-19",
+      "kind": "MISSING_APPROVER"
+    },
+    {
+      "ref": "ORION-REQ-029",
+      "action": "Overdue since 2026-11-10: agree a new date with the requester or escalate.",
+      "owner": "Demand Analyst Munich",
+      "due": "2026-11-19",
+      "kind": "overdue"
+    },
+    {
+      "ref": "ORION-REQ-040",
+      "action": "Overdue since 2026-11-06: agree a new date with the requester or escalate.",
+      "owner": "Demand Analyst Bremen",
+      "due": "2026-11-19",
+      "kind": "overdue"
+    },
+    {
+      "ref": "PO-015",
+      "action": "Reconcile the purchase order ledger with the invoices and correct the recognised amount.",
+      "owner": "Finance Controller",
+      "due": "2026-11-19",
+      "kind": "PO_RECONCILIATION_MISMATCH"
+    },
+    {
+      "ref": "CC-ENG-SIM",
+      "action": "Decide: defer uncommitted work, reallocate budget from a cost centre with headroom, or request a budget increase.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-23",
+      "kind": "FORECAST_OVERRUN"
+    },
+    {
+      "ref": "NET/2026-12",
+      "action": "Re-plan with the delivery lead: move a start date, release run work, or defer one approved demand.",
+      "owner": "Head of Digital Infrastructure",
+      "due": "2026-11-23",
+      "kind": "CAPACITY_OVERALLOCATED"
+    },
+    {
+      "ref": "ORION-REQ-012",
+      "action": "Clear blocker: Waiting for the vendor's corrected firmware release; maintenance window cannot be booked until it is published.",
+      "owner": "Delivery Lead Network and Access",
+      "due": "2026-11-23",
+      "kind": "blocked"
+    },
+    {
+      "ref": "ORION-REQ-022",
+      "action": "Clear blocker: Depends on ORION-REQ-011: the target database platform is being upgraded and cannot take new schemas until that work completes.",
+      "owner": "Demand Analyst Madrid",
+      "due": "2026-11-23",
+      "kind": "blocked"
+    },
+    {
+      "ref": "ORION-REQ-030",
+      "action": "Clear blocker: Supplier contract amendment covering identity federation is not signed; legal review is pending.",
+      "owner": "Demand Analyst Toulouse",
+      "due": "2026-11-23",
+      "kind": "blocked"
+    },
+    {
+      "ref": "ORION-REQ-037",
+      "action": "Requester to supply the missing intake information; close the demand if no reply by the due date.",
+      "owner": "Engineering Lead Structures Simulation",
+      "due": "2026-11-23",
+      "kind": "needs info"
+    },
+    {
+      "ref": "ORION-REQ-038",
+      "action": "Requester to supply the missing intake information; close the demand if no reply by the due date.",
+      "owner": "Engineering Lead Manufacturing Engineering",
+      "due": "2026-11-23",
+      "kind": "needs info"
+    },
+    {
+      "ref": "ORION-REQ-039",
+      "action": "Requester to supply the missing intake information; close the demand if no reply by the due date.",
+      "owner": "Engineering Lead Flight Test Data Engineering",
+      "due": "2026-11-23",
+      "kind": "needs info"
+    },
+    {
+      "ref": "ORION-REQ-040",
+      "action": "Requester to supply the missing intake information; close the demand if no reply by the due date.",
+      "owner": "Engineering Lead Flight Test Data Engineering",
+      "due": "2026-11-23",
+      "kind": "needs info"
+    },
+    {
+      "ref": "ORION-REQ-017",
+      "action": "Prepare re-review (DEC-017): close the conditions named in the deferral rationale.",
+      "owner": "Demand Analyst Munich",
+      "due": "2026-12-08",
+      "kind": "decision follow-up"
+    },
+    {
+      "ref": "ORION-REQ-018",
+      "action": "Prepare re-review (DEC-018): close the conditions named in the deferral rationale.",
+      "owner": "Demand Analyst Toulouse",
+      "due": "2027-01-12",
+      "kind": "decision follow-up"
+    },
+    {
+      "ref": "ORION-REQ-045",
+      "action": "Prepare re-review (DEC-023): close the conditions named in the deferral rationale.",
+      "owner": "Demand Analyst Munich",
+      "due": "2027-01-12",
+      "kind": "decision follow-up"
+    },
+    {
+      "ref": "ORION-REQ-049",
+      "action": "Prepare re-review (DEC-026): close the conditions named in the deferral rationale.",
+      "owner": "Demand Analyst Munich",
+      "due": "2027-03-09",
+      "kind": "decision follow-up"
+    }
+  ],
+  "hero": {
+    "external_id": "ORION-REQ-017",
+    "title": "Engineering Data Repository Expansion",
+    "status": "DEFERRED",
+    "score": 82.0,
+    "band": "Highest",
+    "cost_center": "CC-ENG-DATA",
+    "team": "PLAT",
+    "due_at": "2026-12-18",
+    "options": [
+      {
+        "option_id": "A",
+        "name": "Additional managed storage",
+        "one_time_eur": 48000,
+        "monthly_eur": 3200,
+        "hours": 300,
+        "period_cost_eur": 48000,
+        "total_12_month_eur": 86400,
+        "funding_pass": false,
+        "funding_note": "Forecast 176,050 + request 48,000 = 224,050 EUR against a budget of 200,000 EUR (overrun of 24,050 EUR).",
+        "capacity_pass": false,
+        "capacity_note": "300 h needed, 180 h unallocated for Platform and Storage in 2026-11 to 2026-12 (shortfall of 120 h).",
+        "hours_available": 180,
+        "security_pass": true,
+        "delivery_risk": "Medium: hardware lead time of about four weeks; new encrypted volumes need key-management onboarding.",
+        "benefit": "Adds the full 40 TB requested; no change for users.",
+        "assumptions": "Vendor quote valid until 31 December; rack space and power are available at Munich.",
+        "scenario_eac_eur": 224050
+      },
+      {
+        "option_id": "B",
+        "name": "Archive and optimise existing capacity",
+        "one_time_eur": 14500,
+        "monthly_eur": 600,
+        "hours": 160,
+        "period_cost_eur": 14500,
+        "total_12_month_eur": 21700,
+        "funding_pass": true,
+        "funding_note": "Forecast 176,050 + request 14,500 = 190,550 EUR against a budget of 200,000 EUR (within budget).",
+        "capacity_pass": true,
+        "capacity_note": "160 h needed, 180 h unallocated for Platform and Storage in 2026-11 to 2026-12 (fits).",
+        "hours_available": 180,
+        "security_pass": true,
+        "delivery_risk": "Medium: depends on data owners confirming retention classes; archived data has slower retrieval.",
+        "benefit": "Frees an estimated 16 TB (about 40% of the request) by moving closed-campaign data to the archive tier.",
+        "assumptions": "Archive tier from ORION-REQ-002 has free capacity; estimate based on a sample of three campaigns.",
+        "scenario_eac_eur": 190550
+      }
+    ],
+    "decision": {
+      "decision_id": "DEC-017",
+      "external_id": "ORION-REQ-017",
+      "decided_at": "2026-11-10",
+      "approver_role": "Infrastructure Demand Board Chair",
+      "decision": "deferred",
+      "rationale": "Deferred to the 8 December board. Option A (additional managed storage) would push CC-ENG-DATA above its approved budget for the period and needs 300 engineer-hours where Platform and Storage has 180 available before the required date. Option B (archive and optimise) fits both gates but frees only part of the requested capacity and requires data-owner sign-off on archive retention classes, which is outstanding. No spend is authorised now.",
+      "budget_snapshot_ref": "FIN-2026-11/CC-ENG-DATA",
+      "capacity_snapshot_ref": "CAP-2026-11/PLAT",
+      "followup_owner": "Demand Analyst Munich",
+      "followup_date": "2026-12-08"
+    },
+    "timeline": [
+      {
+        "date": "2026-10-05",
+        "status": "SUBMITTED",
+        "actor": "Engineering Lead Flight Test Data Engineering",
+        "reason": "Demand submitted through the intake form."
+      },
+      {
+        "date": "2026-10-07",
+        "status": "NEEDS_INFO",
+        "actor": "Demand Analyst Munich",
+        "reason": "Retention classification of the new data sets and the accountable business owner are missing; question sent to requester."
+      },
+      {
+        "date": "2026-10-14",
+        "status": "TRIAGED",
+        "actor": "Demand Analyst Munich",
+        "reason": "Requester confirmed retention class R3 (10 years) and named the Head of Flight Test Data Engineering as business owner. Intake complete."
+      },
+      {
+        "date": "2026-10-16",
+        "status": "ASSESSMENT",
+        "actor": "Demand Analyst Munich",
+        "reason": "Assessment started; Solution Architect asked for two options."
+      },
+      {
+        "date": "2026-11-03",
+        "status": "READY_FOR_DECISION",
+        "actor": "Solution Architect",
+        "reason": "Options A and B assessed; finance snapshot FIN-2026-11/CC-ENG-DATA and capacity snapshot CAP-2026-11/PLAT attached."
+      },
+      {
+        "date": "2026-11-10",
+        "status": "DEFERRED",
+        "actor": "Infrastructure Demand Board Chair",
+        "reason": "Deferred to the 8 December board: Option A fails the funding and capacity gates; Option B needs data-owner sign-off."
+      }
+    ],
+    "cc_forecast_eac_eur": 176050,
+    "cc_budget_eur": 200000,
+    "cc_headroom_eur": 23950,
+    "next_review_at": "2026-12-08"
+  }
+}

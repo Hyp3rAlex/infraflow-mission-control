@@ -1,0 +1,29 @@
+name: python-validation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python -m pip install -e ".[dev]"
+      - name: Regenerate synthetic data and compare with the committed files
+        run: |
+          python -m infraflow seed
+          git diff --exit-code data/synthetic
+      - name: Tests
+        run: python -m pytest -q
+      - name: Build reports, workbooks and slide deck
+        run: python -m infraflow all

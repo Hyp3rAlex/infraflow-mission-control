@@ -1,0 +1,321 @@
+{
+  "as_of": "2026-11-16",
+  "seed": 20261116,
+  "note": "Built by construction inside generator.py and from hand-listed expectations; never by calling the reporting code.",
+  "demand_count": 50,
+  "status_counts": {
+    "APPROVED": 3,
+    "ASSESSMENT": 6,
+    "COMPLETE": 9,
+    "DEFERRED": 4,
+    "HANDOFF": 2,
+    "IN_DELIVERY": 7,
+    "NEEDS_INFO": 4,
+    "READY_FOR_DECISION": 5,
+    "REJECTED": 2,
+    "ROUTED_OUT": 2,
+    "SUBMITTED": 3,
+    "TRIAGED": 3
+  },
+  "open_count": 37,
+  "overdue_open_ids": [
+    "ORION-REQ-012",
+    "ORION-REQ-015",
+    "ORION-REQ-029",
+    "ORION-REQ-040"
+  ],
+  "blocked_ids": [
+    "ORION-REQ-012",
+    "ORION-REQ-022",
+    "ORION-REQ-030"
+  ],
+  "missing_owner_ids": [
+    "ORION-REQ-031",
+    "ORION-REQ-041",
+    "ORION-REQ-044"
+  ],
+  "missing_cost_center_ids": [
+    "ORION-REQ-039"
+  ],
+  "missing_approver_ids": [
+    "ORION-REQ-021"
+  ],
+  "invalid_transition_ids": [
+    "ORION-REQ-044"
+  ],
+  "finance": {
+    "CC-ENG-DATA": {
+      "budget_period_eur": 200000,
+      "budget_to_date_eur": 160000,
+      "actual_eur": 95150,
+      "open_commitments_eur": 30900,
+      "approved_not_committed_eur": 50000,
+      "forecast_eac_eur": 176050,
+      "forecast_variance_eur": -23950
+    },
+    "CC-ENG-SIM": {
+      "budget_period_eur": 225000,
+      "budget_to_date_eur": 180000,
+      "actual_eur": 169400,
+      "open_commitments_eur": 59400,
+      "approved_not_committed_eur": 0,
+      "forecast_eac_eur": 228800,
+      "forecast_variance_eur": 3800
+    },
+    "CC-DIG-INFRA": {
+      "budget_period_eur": 350000,
+      "budget_to_date_eur": 280000,
+      "actual_eur": 197200,
+      "open_commitments_eur": 84250,
+      "approved_not_committed_eur": 0,
+      "forecast_eac_eur": 281450,
+      "forecast_variance_eur": -68550
+    },
+    "CC-SEC-OPS": {
+      "budget_period_eur": 175000,
+      "budget_to_date_eur": 140000,
+      "actual_eur": 117200,
+      "open_commitments_eur": 45600,
+      "approved_not_committed_eur": 0,
+      "forecast_eac_eur": 162800,
+      "forecast_variance_eur": -12200
+    },
+    "CC-COLLAB": {
+      "budget_period_eur": 100000,
+      "budget_to_date_eur": 80000,
+      "actual_eur": 64500,
+      "open_commitments_eur": 18100,
+      "approved_not_committed_eur": 5000,
+      "forecast_eac_eur": 87600,
+      "forecast_variance_eur": -12400
+    }
+  },
+  "finance_totals": {
+    "budget_period_eur": 1050000,
+    "budget_to_date_eur": 840000,
+    "actual_eur": 643450,
+    "open_commitments_eur": 238250,
+    "approved_not_committed_eur": 55000,
+    "forecast_eac_eur": 936700,
+    "forecast_variance_eur": -113300
+  },
+  "unmapped_actual_eur": 4300,
+  "excluded_invoices": [
+    {
+      "invoice_id": "INV-0021",
+      "reason": "DUPLICATE_INVOICE",
+      "amount": 62000,
+      "currency": "EUR"
+    },
+    {
+      "invoice_id": "INV-9004",
+      "reason": "INVALID_AMOUNT",
+      "amount": -1200,
+      "currency": "EUR"
+    },
+    {
+      "invoice_id": "INV-9006",
+      "reason": "UNSUPPORTED_CURRENCY",
+      "amount": 5000,
+      "currency": "USD"
+    },
+    {
+      "invoice_id": "INV-9008",
+      "reason": "INVALID_DATE",
+      "amount": 3100,
+      "currency": "EUR"
+    }
+  ],
+  "excluded_invalid_by_currency": {
+    "EUR": {
+      "net": 1900,
+      "gross": 4300,
+      "invoice_ids": [
+        "INV-9004",
+        "INV-9008"
+      ]
+    },
+    "USD": {
+      "net": 5000,
+      "gross": 5000,
+      "invoice_ids": [
+        "INV-9006"
+      ]
+    }
+  },
+  "unmapped_invoice_ids": [
+    "INV-9002"
+  ],
+  "unreconciled_po": {
+    "po_id": "PO-015",
+    "ledger_recognized_eur": 3800,
+    "invoiced_eur": 4800,
+    "difference_eur": 1000,
+    "forecast_effect_eur": -1000
+  },
+  "invoice_after_cutoff": {
+    "invoice_id": "INV-9009",
+    "amount_eur": 6400
+  },
+  "anomalies": {
+    "DUPLICATE_INVOICE": [
+      "INV-0021"
+    ],
+    "INVALID_AMOUNT": [
+      "INV-9004"
+    ],
+    "INVALID_DATE": [
+      "INV-9008"
+    ],
+    "MISSING_REFERENCE": [
+      "INV-9007"
+    ],
+    "PO_OVER_RECOGNIZED": [
+      "PO-9010"
+    ],
+    "PO_RECONCILIATION_MISMATCH": [
+      "PO-015"
+    ],
+    "UNAPPROVED_SPEND": [
+      "INV-9003"
+    ],
+    "UNKNOWN_COST_CENTER": [
+      "INV-9002"
+    ],
+    "UNSUPPORTED_CURRENCY": [
+      "INV-9006"
+    ]
+  },
+  "capacity": {
+    "PLAT|2026-08": {
+      "available": 544,
+      "allocated": 301,
+      "remaining": 243
+    },
+    "PLAT|2026-09": {
+      "available": 640,
+      "allocated": 514,
+      "remaining": 126
+    },
+    "PLAT|2026-10": {
+      "available": 640,
+      "allocated": 606,
+      "remaining": 34
+    },
+    "PLAT|2026-11": {
+      "available": 640,
+      "allocated": 580,
+      "remaining": 60
+    },
+    "PLAT|2026-12": {
+      "available": 480,
+      "allocated": 360,
+      "remaining": 120
+    },
+    "PLAT|2027-01": {
+      "available": 640,
+      "allocated": 407,
+      "remaining": 233
+    },
+    "PLAT|2027-02": {
+      "available": 640,
+      "allocated": 353,
+      "remaining": 287
+    },
+    "NET|2026-08": {
+      "available": 408,
+      "allocated": 204,
+      "remaining": 204
+    },
+    "NET|2026-09": {
+      "available": 480,
+      "allocated": 355,
+      "remaining": 125
+    },
+    "NET|2026-10": {
+      "available": 480,
+      "allocated": 466,
+      "remaining": 14
+    },
+    "NET|2026-11": {
+      "available": 480,
+      "allocated": 460,
+      "remaining": 20
+    },
+    "NET|2026-12": {
+      "available": 360,
+      "allocated": 390,
+      "remaining": -30
+    },
+    "NET|2027-01": {
+      "available": 480,
+      "allocated": 390,
+      "remaining": 90
+    },
+    "NET|2027-02": {
+      "available": 480,
+      "allocated": 400,
+      "remaining": 80
+    },
+    "SEC|2026-08": {
+      "available": 272,
+      "allocated": 150,
+      "remaining": 122
+    },
+    "SEC|2026-09": {
+      "available": 320,
+      "allocated": 246,
+      "remaining": 74
+    },
+    "SEC|2026-10": {
+      "available": 320,
+      "allocated": 310,
+      "remaining": 10
+    },
+    "SEC|2026-11": {
+      "available": 320,
+      "allocated": 310,
+      "remaining": 10
+    },
+    "SEC|2026-12": {
+      "available": 240,
+      "allocated": 233,
+      "remaining": 7
+    },
+    "SEC|2027-01": {
+      "available": 320,
+      "allocated": 230,
+      "remaining": 90
+    },
+    "SEC|2027-02": {
+      "available": 320,
+      "allocated": 176,
+      "remaining": 144
+    }
+  },
+  "overallocated_team_months": [
+    "NET|2026-12"
+  ],
+  "hero": {
+    "external_id": "ORION-REQ-017",
+    "option_a_period_cost_eur": 48000,
+    "option_b_period_cost_eur": 14500,
+    "option_a_12_month_eur": 86400,
+    "option_b_12_month_eur": 21700,
+    "hours_requested": 300,
+    "hours_available_in_window": 180,
+    "funding_pass_option_a": false,
+    "capacity_pass_option_a": false,
+    "funding_pass_option_b": true,
+    "capacity_pass_option_b": true,
+    "decision": "deferred",
+    "next_review_at": "2026-12-08"
+  },
+  "affordable_but_no_capacity": {
+    "external_id": "ORION-REQ-023",
+    "funding_pass": true,
+    "capacity_pass": false,
+    "hours_requested": 280,
+    "hours_available_in_window": 190
+  }
+}

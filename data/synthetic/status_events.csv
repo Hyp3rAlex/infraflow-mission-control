@@ -1,0 +1,249 @@
+event_id,external_id,occurred_at,actor_role,previous_status,new_status,reason
+EVT-0001,ORION-REQ-006,2026-07-24T09:00:00,Engineering Lead Avionics Software,,SUBMITTED,Demand submitted through the intake form.
+EVT-0002,ORION-REQ-006,2026-07-28T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0003,ORION-REQ-006,2026-07-29T11:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0004,ORION-REQ-006,2026-08-03T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0005,ORION-REQ-004,2026-08-07T09:00:00,Engineering Lead Engineering IT Applications,,SUBMITTED,Demand submitted through the intake form.
+EVT-0006,ORION-REQ-004,2026-08-07T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0007,ORION-REQ-006,2026-08-07T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0008,ORION-REQ-004,2026-08-11T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0009,ORION-REQ-006,2026-08-14T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0010,ORION-REQ-006,2026-08-19T15:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0011,ORION-REQ-002,2026-08-21T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0012,ORION-REQ-003,2026-08-21T09:00:00,Engineering Lead Space Systems Ground Segment,,SUBMITTED,Demand submitted through the intake form.
+EVT-0013,ORION-REQ-004,2026-08-21T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0014,ORION-REQ-002,2026-08-24T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0015,ORION-REQ-007,2026-08-26T09:00:00,Engineering Lead Manufacturing Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0016,ORION-REQ-003,2026-08-27T10:00:00,Demand Analyst Bremen,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0017,ORION-REQ-007,2026-08-27T10:00:00,Demand Analyst Madrid,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0018,ORION-REQ-002,2026-08-27T11:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0019,ORION-REQ-005,2026-08-31T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0020,ORION-REQ-004,2026-08-31T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0021,ORION-REQ-003,2026-09-01T11:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0022,ORION-REQ-002,2026-09-01T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0023,ORION-REQ-007,2026-09-02T11:00:00,Demand Analyst Madrid,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0024,ORION-REQ-004,2026-09-02T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0025,ORION-REQ-005,2026-09-03T10:00:00,Demand Analyst Madrid,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0026,ORION-REQ-007,2026-09-03T12:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0027,ORION-REQ-005,2026-09-04T11:00:00,Demand Analyst Madrid,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0028,ORION-REQ-004,2026-09-04T15:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0029,ORION-REQ-005,2026-09-07T12:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0030,ORION-REQ-002,2026-09-07T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0031,ORION-REQ-001,2026-09-08T09:00:00,Engineering Lead Structures Simulation,,SUBMITTED,Demand submitted through the intake form.
+EVT-0032,ORION-REQ-002,2026-09-10T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0033,ORION-REQ-008,2026-09-11T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0034,ORION-REQ-014,2026-09-11T09:00:00,Engineering Lead Space Systems Ground Segment,,SUBMITTED,Demand submitted through the intake form.
+EVT-0035,ORION-REQ-001,2026-09-11T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0036,ORION-REQ-001,2026-09-11T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0037,ORION-REQ-003,2026-09-11T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0038,ORION-REQ-005,2026-09-11T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0039,ORION-REQ-007,2026-09-11T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0040,ORION-REQ-002,2026-09-14T15:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0041,ORION-REQ-008,2026-09-15T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0042,ORION-REQ-014,2026-09-16T10:00:00,Demand Analyst Bremen,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0043,ORION-REQ-015,2026-09-17T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0044,ORION-REQ-006,2026-09-17T16:00:00,Delivery Lead Platform and Storage,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0045,ORION-REQ-013,2026-09-18T09:00:00,Engineering Lead Structures Simulation,,SUBMITTED,Demand submitted through the intake form.
+EVT-0046,ORION-REQ-013,2026-09-18T10:00:00,Demand Analyst Munich,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0047,ORION-REQ-015,2026-09-18T10:00:00,Demand Analyst Madrid,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0048,ORION-REQ-008,2026-09-18T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0049,ORION-REQ-014,2026-09-18T11:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0050,ORION-REQ-001,2026-09-18T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0051,ORION-REQ-003,2026-09-18T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0052,ORION-REQ-005,2026-09-18T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0053,ORION-REQ-007,2026-09-18T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0054,ORION-REQ-010,2026-09-21T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0055,ORION-REQ-003,2026-09-22T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0056,ORION-REQ-011,2026-09-23T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0057,ORION-REQ-010,2026-09-23T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0058,ORION-REQ-001,2026-09-23T13:00:00,Head of Digital Infrastructure,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0059,ORION-REQ-005,2026-09-23T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0060,ORION-REQ-007,2026-09-23T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0061,ORION-REQ-013,2026-09-24T11:00:00,Demand Analyst Munich,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0062,ORION-REQ-009,2026-09-25T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0063,ORION-REQ-011,2026-09-25T10:00:00,Demand Analyst Toulouse,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0064,ORION-REQ-010,2026-09-25T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0065,ORION-REQ-015,2026-09-25T11:00:00,Demand Analyst Madrid,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0066,ORION-REQ-013,2026-09-25T12:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0067,ORION-REQ-001,2026-09-25T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0068,ORION-REQ-003,2026-09-25T15:00:00,Delivery Lead Network and Access,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0069,ORION-REQ-007,2026-09-25T16:00:00,Delivery Lead Network and Access,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0070,ORION-REQ-014,2026-09-28T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0071,ORION-REQ-009,2026-09-29T10:00:00,Demand Analyst Bremen,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0072,ORION-REQ-011,2026-09-29T11:00:00,Demand Analyst Toulouse,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0073,ORION-REQ-046,2026-09-30T09:00:00,Engineering Lead Engineering IT Applications,,SUBMITTED,Demand submitted through the intake form.
+EVT-0074,ORION-REQ-011,2026-09-30T12:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0075,ORION-REQ-001,2026-09-30T15:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0076,ORION-REQ-005,2026-09-30T16:00:00,Delivery Lead Security Engineering,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0077,ORION-REQ-009,2026-10-02T11:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0078,ORION-REQ-008,2026-10-02T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0079,ORION-REQ-015,2026-10-02T12:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0080,ORION-REQ-013,2026-10-02T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0081,ORION-REQ-004,2026-10-02T16:00:00,Delivery Lead Platform and Storage,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0082,ORION-REQ-017,2026-10-05T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0083,ORION-REQ-047,2026-10-05T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0084,ORION-REQ-046,2026-10-05T10:00:00,Demand Manager,SUBMITTED,REJECTED,Rejected at triage: the service-management tool already provides this function; no new infrastructure is required.
+EVT-0085,ORION-REQ-013,2026-10-05T14:00:00,Head of Digital Infrastructure,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0086,ORION-REQ-014,2026-10-06T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0087,ORION-REQ-018,2026-10-07T09:00:00,Engineering Lead Structures Simulation,,SUBMITTED,Demand submitted through the intake form.
+EVT-0088,ORION-REQ-017,2026-10-07T10:00:00,Demand Analyst Munich,SUBMITTED,NEEDS_INFO,Retention classification of the new data sets and the accountable business owner are missing; question sent to requester.
+EVT-0089,ORION-REQ-010,2026-10-07T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0090,ORION-REQ-008,2026-10-08T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0091,ORION-REQ-012,2026-10-09T09:00:00,Engineering Lead Engineering IT Applications,,SUBMITTED,Demand submitted through the intake form.
+EVT-0092,ORION-REQ-045,2026-10-09T09:00:00,Engineering Lead Engineering IT Applications,,SUBMITTED,Demand submitted through the intake form.
+EVT-0093,ORION-REQ-018,2026-10-09T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0094,ORION-REQ-047,2026-10-09T10:00:00,Demand Analyst Madrid,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0095,ORION-REQ-047,2026-10-09T11:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0096,ORION-REQ-011,2026-10-09T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0097,ORION-REQ-008,2026-10-09T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0098,ORION-REQ-013,2026-10-09T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0099,ORION-REQ-002,2026-10-09T16:00:00,Delivery Lead Platform and Storage,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0100,ORION-REQ-016,2026-10-12T09:00:00,Engineering Lead Engineering IT Applications,,SUBMITTED,Demand submitted through the intake form.
+EVT-0101,ORION-REQ-049,2026-10-12T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0102,ORION-REQ-012,2026-10-12T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0103,ORION-REQ-045,2026-10-12T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0104,ORION-REQ-010,2026-10-12T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0105,ORION-REQ-014,2026-10-12T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0106,ORION-REQ-016,2026-10-13T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0107,ORION-REQ-018,2026-10-13T11:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0108,ORION-REQ-015,2026-10-13T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0109,ORION-REQ-008,2026-10-13T15:00:00,Delivery Lead Security Engineering,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0110,ORION-REQ-007,2026-10-13T17:00:00,Delivery Lead Network and Access,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0111,ORION-REQ-019,2026-10-14T09:00:00,Engineering Lead Manufacturing Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0112,ORION-REQ-017,2026-10-14T11:00:00,Demand Analyst Munich,NEEDS_INFO,TRIAGED,Requester confirmed retention class R3 (10 years) and named the Head of Flight Test Data Engineering as business owner. Intake complete.
+EVT-0113,ORION-REQ-009,2026-10-14T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0114,ORION-REQ-023,2026-10-15T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0115,ORION-REQ-019,2026-10-15T10:00:00,Demand Analyst Madrid,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0116,ORION-REQ-049,2026-10-15T10:00:00,Demand Analyst Munich,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0117,ORION-REQ-045,2026-10-15T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0118,ORION-REQ-020,2026-10-16T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0119,ORION-REQ-023,2026-10-16T10:00:00,Demand Analyst Bremen,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0120,ORION-REQ-012,2026-10-16T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0121,ORION-REQ-016,2026-10-16T11:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0122,ORION-REQ-019,2026-10-16T11:00:00,Demand Analyst Madrid,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0123,ORION-REQ-017,2026-10-16T12:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,Assessment started; Solution Architect asked for two options.
+EVT-0124,ORION-REQ-010,2026-10-16T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0125,ORION-REQ-013,2026-10-16T16:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0126,ORION-REQ-020,2026-10-19T10:00:00,Demand Analyst Bremen,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0127,ORION-REQ-019,2026-10-19T12:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0128,ORION-REQ-047,2026-10-19T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0129,ORION-REQ-014,2026-10-19T15:00:00,Delivery Lead Security Engineering,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0130,ORION-REQ-018,2026-10-20T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0131,ORION-REQ-009,2026-10-20T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0132,ORION-REQ-011,2026-10-20T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0133,ORION-REQ-026,2026-10-21T09:00:00,Engineering Lead Space Systems Ground Segment,,SUBMITTED,Demand submitted through the intake form.
+EVT-0134,ORION-REQ-031,2026-10-21T09:00:00,Engineering Lead Manufacturing Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0135,ORION-REQ-001,2026-10-21T16:00:00,Delivery Lead Platform and Storage,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0136,ORION-REQ-020,2026-10-22T11:00:00,Demand Analyst Bremen,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0137,ORION-REQ-015,2026-10-22T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0138,ORION-REQ-022,2026-10-23T09:00:00,Engineering Lead Manufacturing Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0139,ORION-REQ-050,2026-10-23T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0140,ORION-REQ-026,2026-10-23T10:00:00,Demand Analyst Bremen,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0141,ORION-REQ-031,2026-10-23T10:00:00,Demand Analyst Madrid,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0142,ORION-REQ-050,2026-10-23T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0143,ORION-REQ-023,2026-10-23T11:00:00,Demand Analyst Bremen,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0144,ORION-REQ-049,2026-10-23T11:00:00,Demand Analyst Munich,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0145,ORION-REQ-049,2026-10-23T12:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0146,ORION-REQ-047,2026-10-23T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,REJECTED,Rejected: bypassing the central proxy conflicts with the network security policy; the requester was referred to the proxy exception process.
+EVT-0147,ORION-REQ-009,2026-10-23T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0148,ORION-REQ-010,2026-10-23T15:00:00,Delivery Lead Security Engineering,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0149,ORION-REQ-011,2026-10-23T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0150,ORION-REQ-015,2026-10-23T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0151,ORION-REQ-003,2026-10-23T16:00:00,Delivery Lead Network and Access,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0152,ORION-REQ-021,2026-10-26T09:00:00,Engineering Lead PMO and Finance,,SUBMITTED,Demand submitted through the intake form.
+EVT-0153,ORION-REQ-024,2026-10-26T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0154,ORION-REQ-026,2026-10-26T11:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0155,ORION-REQ-050,2026-10-26T11:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0156,ORION-REQ-020,2026-10-26T12:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0157,ORION-REQ-025,2026-10-27T09:00:00,Engineering Lead Engineering IT Applications,,SUBMITTED,Demand submitted through the intake form.
+EVT-0158,ORION-REQ-032,2026-10-27T09:00:00,Engineering Lead Avionics Software,,SUBMITTED,Demand submitted through the intake form.
+EVT-0159,ORION-REQ-033,2026-10-27T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0160,ORION-REQ-022,2026-10-27T10:00:00,Demand Analyst Madrid,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0161,ORION-REQ-012,2026-10-27T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0162,ORION-REQ-018,2026-10-27T13:00:00,Head of Digital Infrastructure,READY_FOR_DECISION,DEFERRED,Deferred: CC-ENG-SIM is already forecast above budget after the licence renewal; request to be resubmitted with the 2027 budget.
+EVT-0163,ORION-REQ-009,2026-10-27T15:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0164,ORION-REQ-011,2026-10-27T16:00:00,Delivery Lead Platform and Storage,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0165,ORION-REQ-021,2026-10-28T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0166,ORION-REQ-016,2026-10-28T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0167,ORION-REQ-045,2026-10-28T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0168,ORION-REQ-024,2026-10-29T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0169,ORION-REQ-025,2026-10-29T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0170,ORION-REQ-032,2026-10-29T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0171,ORION-REQ-031,2026-10-29T11:00:00,Demand Analyst Madrid,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0172,ORION-REQ-023,2026-10-29T12:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0173,ORION-REQ-005,2026-10-29T17:00:00,Delivery Lead Security Engineering,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0174,ORION-REQ-027,2026-10-30T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0175,ORION-REQ-029,2026-10-30T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0176,ORION-REQ-030,2026-10-30T09:00:00,Engineering Lead Avionics Software,,SUBMITTED,Demand submitted through the intake form.
+EVT-0177,ORION-REQ-037,2026-10-30T09:00:00,Engineering Lead Structures Simulation,,SUBMITTED,Demand submitted through the intake form.
+EVT-0178,ORION-REQ-029,2026-10-30T10:00:00,Demand Analyst Munich,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0179,ORION-REQ-033,2026-10-30T10:00:00,Demand Analyst Munich,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0180,ORION-REQ-022,2026-10-30T11:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0181,ORION-REQ-024,2026-10-30T11:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0182,ORION-REQ-025,2026-10-30T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0183,ORION-REQ-032,2026-10-30T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0184,ORION-REQ-031,2026-10-30T12:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0185,ORION-REQ-012,2026-10-30T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0186,ORION-REQ-019,2026-10-30T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0187,ORION-REQ-020,2026-10-30T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0188,ORION-REQ-045,2026-10-30T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,DEFERRED,Deferred: Platform and Storage has no free capacity before February and the library remains usable under best-effort support.
+EVT-0189,ORION-REQ-049,2026-10-30T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0190,ORION-REQ-008,2026-10-30T16:00:00,Delivery Lead Security Engineering,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0191,ORION-REQ-015,2026-10-30T16:00:00,Delivery Lead Network and Access,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0192,ORION-REQ-040,2026-11-02T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0193,ORION-REQ-037,2026-11-02T10:00:00,Demand Analyst Munich,SUBMITTED,NEEDS_INFO,Expected number of jobs per month and the programme funding source are not stated.
+EVT-0194,ORION-REQ-021,2026-11-02T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0195,ORION-REQ-050,2026-11-02T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0196,ORION-REQ-016,2026-11-02T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0197,ORION-REQ-030,2026-11-03T10:00:00,Demand Analyst Toulouse,SUBMITTED,NEEDS_INFO,Intake check found mandatory information missing; question sent to requester.
+EVT-0198,ORION-REQ-017,2026-11-03T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Options A and B assessed; finance snapshot FIN-2026-11/CC-ENG-DATA and capacity snapshot CAP-2026-11/PLAT attached.
+EVT-0199,ORION-REQ-012,2026-11-03T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0200,ORION-REQ-027,2026-11-04T10:00:00,Demand Analyst Madrid,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0201,ORION-REQ-040,2026-11-04T10:00:00,Demand Analyst Bremen,SUBMITTED,NEEDS_INFO,List of users and the test-range network provider are missing; requester has not replied to two reminders.
+EVT-0202,ORION-REQ-033,2026-11-04T11:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0203,ORION-REQ-026,2026-11-04T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0204,ORION-REQ-038,2026-11-05T09:00:00,Engineering Lead Manufacturing Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0205,ORION-REQ-028,2026-11-06T09:00:00,Engineering Lead Space Systems Ground Segment,,SUBMITTED,Demand submitted through the intake form.
+EVT-0206,ORION-REQ-034,2026-11-06T09:00:00,Engineering Lead Avionics Software,,SUBMITTED,Demand submitted through the intake form.
+EVT-0207,ORION-REQ-038,2026-11-06T10:00:00,Demand Analyst Toulouse,SUBMITTED,NEEDS_INFO,Data classification of the exchanged CAD models and the partner's contact for the security assessment are missing.
+EVT-0208,ORION-REQ-027,2026-11-06T11:00:00,Demand Analyst Madrid,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0209,ORION-REQ-029,2026-11-06T11:00:00,Demand Analyst Munich,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0210,ORION-REQ-024,2026-11-06T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0211,ORION-REQ-029,2026-11-06T12:00:00,Demand Analyst Munich,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0212,ORION-REQ-023,2026-11-06T13:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0213,ORION-REQ-050,2026-11-06T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0214,ORION-REQ-016,2026-11-06T14:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0215,ORION-REQ-020,2026-11-06T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0216,ORION-REQ-049,2026-11-06T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,DEFERRED,Deferred: strategically relevant but not urgent; Security Engineering capacity is committed to MFA and directory work until March.
+EVT-0217,ORION-REQ-039,2026-11-09T09:00:00,Engineering Lead Flight Test Data Engineering,,SUBMITTED,Demand submitted through the intake form.
+EVT-0218,ORION-REQ-044,2026-11-09T09:00:00,Engineering Lead PMO and Finance,,SUBMITTED,Demand submitted through the intake form.
+EVT-0219,ORION-REQ-048,2026-11-09T09:00:00,Engineering Lead Space Systems Ground Segment,,SUBMITTED,Demand submitted through the intake form.
+EVT-0220,ORION-REQ-035,2026-11-10T09:00:00,Engineering Lead PMO and Finance,,SUBMITTED,Demand submitted through the intake form.
+EVT-0221,ORION-REQ-048,2026-11-10T10:00:00,Demand Analyst Bremen,SUBMITTED,ROUTED_OUT,"Routed out: restoring an existing service is an incident, not a demand for new or changed infrastructure. No budget or prioritisation decision applies."
+EVT-0222,ORION-REQ-021,2026-11-10T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0223,ORION-REQ-022,2026-11-10T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0224,ORION-REQ-017,2026-11-10T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,DEFERRED,Deferred to the 8 December board: Option A fails the funding and capacity gates; Option B needs data-owner sign-off.
+EVT-0225,ORION-REQ-019,2026-11-10T14:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0226,ORION-REQ-012,2026-11-10T15:00:00,Delivery Lead Network and Access,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0227,ORION-REQ-016,2026-11-10T15:00:00,Delivery Lead Security Engineering,HANDOFF,IN_DELIVERY,Delivery lead accepted the handoff; work started.
+EVT-0228,ORION-REQ-009,2026-11-10T16:00:00,Delivery Lead Platform and Storage,IN_DELIVERY,COMPLETE,Delivery accepted by the requester; demand closed.
+EVT-0229,ORION-REQ-036,2026-11-11T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0230,ORION-REQ-028,2026-11-11T10:00:00,Demand Analyst Bremen,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0231,ORION-REQ-034,2026-11-11T10:00:00,Demand Analyst Toulouse,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0232,ORION-REQ-035,2026-11-11T10:00:00,Demand Analyst Bremen,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0233,ORION-REQ-030,2026-11-11T11:00:00,Demand Analyst Toulouse,NEEDS_INFO,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0234,ORION-REQ-025,2026-11-11T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0235,ORION-REQ-020,2026-11-11T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0236,ORION-REQ-039,2026-11-12T10:00:00,Demand Analyst Madrid,SUBMITTED,NEEDS_INFO,No cost centre was provided and the data volume estimate is missing.
+EVT-0237,ORION-REQ-028,2026-11-12T11:00:00,Demand Analyst Bremen,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0238,ORION-REQ-030,2026-11-12T12:00:00,Demand Analyst Toulouse,TRIAGED,ASSESSMENT,"Assessment started: impact, options, cost and effort being estimated."
+EVT-0239,ORION-REQ-041,2026-11-13T09:00:00,Engineering Lead PMO and Finance,,SUBMITTED,Demand submitted through the intake form.
+EVT-0240,ORION-REQ-042,2026-11-13T09:00:00,Engineering Lead Information Security Office,,SUBMITTED,Demand submitted through the intake form.
+EVT-0241,ORION-REQ-043,2026-11-13T09:00:00,Engineering Lead Systems Integration Lab,,SUBMITTED,Demand submitted through the intake form.
+EVT-0242,ORION-REQ-036,2026-11-13T10:00:00,Demand Analyst Madrid,SUBMITTED,TRIAGED,Intake complete; classified as infrastructure demand and assigned for assessment.
+EVT-0243,ORION-REQ-043,2026-11-13T10:00:00,Demand Analyst Bremen,SUBMITTED,ROUTED_OUT,Routed out: a standard catalogue item with a fixed price and no assessment need is not an infrastructure demand.
+EVT-0244,ORION-REQ-027,2026-11-13T12:00:00,Solution Architect,ASSESSMENT,READY_FOR_DECISION,Assessment complete; finance and capacity snapshots attached for the demand board.
+EVT-0245,ORION-REQ-021,2026-11-13T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0246,ORION-REQ-022,2026-11-13T13:00:00,Infrastructure Demand Board Chair,READY_FOR_DECISION,APPROVED,Approved by the demand board.
+EVT-0247,ORION-REQ-019,2026-11-13T15:00:00,Demand Manager,APPROVED,HANDOFF,Handoff checklist issued to the delivery team.
+EVT-0248,ORION-REQ-044,2026-11-13T15:00:00,Demand Analyst Madrid,SUBMITTED,ASSESSMENT,Status changed in bulk edit (no triage recorded).
