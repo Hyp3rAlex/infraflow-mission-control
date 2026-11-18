@@ -27,3 +27,7 @@ jobs:
         run: python -m pytest -q
       - name: Build reports, workbooks and slide deck
         run: python -m infraflow all
+      - name: Generated text reports equal the committed ones
+        run: git diff --exit-code -- 'reports/*.md' 'reports/*.json' 'reports/*.csv'
+      - name: Office files compared with the committed ones (informational; library versions can change bytes)
+        run: git diff --stat -- reports/*.xlsx presentations/*.pptx && (git diff --quiet -- reports/*.xlsx presentations/*.pptx && echo "Office files byte-identical" || echo "Office files differ in bytes from the committed versions")
