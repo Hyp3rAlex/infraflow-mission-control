@@ -139,7 +139,3 @@ Full list: [limitations](docs/LIMITATIONS.md).
 ## License
 
 Released under the [MIT License](LICENSE). The synthetic data, screenshots and generated reports are part of the same release.
-
-## Use of AI assistance
-
-The code, data and documents were produced with an AI coding assistant working from a written specification, under the author's direction and review. Test results and live checks are the ones actually run; the screenshots were captured by the author.
