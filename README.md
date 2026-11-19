@@ -1,5 +1,8 @@
 # InfraFlow Mission Control
 
+[![python-validation](https://github.com/Hyp3rAlex/infraflow-mission-control/actions/workflows/python-validation.yml/badge.svg)](https://github.com/Hyp3rAlex/infraflow-mission-control/actions/workflows/python-validation.yml)
+      
+
 **IT infrastructure demand management, end to end: intake in Jira, assessment against budget and team capacity, a recorded human decision, and management reporting in Confluence, Excel and PowerPoint.**
 
 > **Independent portfolio project using entirely synthetic data. All organizations, personnel, infrastructure demands, financial figures, and operational scenarios are fictional. This project is not affiliated with or endorsed by any real organization and has not been deployed in production.**
